@@ -4,18 +4,26 @@ import numpy as np
 
 
 
-
-
-def main():
-
-    train_lst = []
-    with open("./NLI2FOLI/SICK/SICK_train.txt", "r") as file:
+def file_to_matrix(file_path):
+    matrix = []
+    with open(file_path, "r") as file:
 
         for line in file:
             line = line.strip()
             lst = line.split()
-            train_lst.append(lst)
-    print(train_lst)
+            matrix.append(lst)
+    return matrix
+
+
+
+def main():
+
+    train_matrix = file_to_matrix("./NLI2FOLI/SICK/SICK_train.txt")
+
+    trial_matrix = file_to_matrix("./NLI2FOLI/SICK/SICK_trial.txt")
+    print(trial_matrix)
+
+
 
 if __name__ == '__main__':
     main()
