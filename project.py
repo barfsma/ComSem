@@ -12,20 +12,16 @@ def file_to_matrix(file_path):
             line = line.strip()
             lst = line.split()
             matrix.append(lst)
-    return matrix
+    return np.array(matrix)
 
 
 
 def main():
 
     train_matrix = file_to_matrix("./NLI2FOLI/SICK/SICK_train.txt")
-    train_matrix = np.array(train_matrix)
+
 
     trial_matrix = file_to_matrix("./NLI2FOLI/SICK/SICK_trial.txt")
-    trial_matrix = np.array(trial_matrix)
-
-    
-    print(trial_matrix)
 
 
 
