@@ -184,7 +184,7 @@ if __name__ == '__main__':
         print("{}\t{}".format(op, cnt))
 
     # Draw a confusion matrix
-    confusion_matrix_scores(gold_labs, pred_labs, scores=not args.pids)
+    #confusion_matrix_scores(gold_labs, pred_labs, scores=not args.pids)
 
     # write predictions in the file
     if args.out:

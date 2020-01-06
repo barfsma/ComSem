@@ -1,0 +1,3504 @@
+500 SICK problems read from SICK/SICK_trial.txt
+PMB part/documents read for 500 problems
+
+SICK-4 [CONTRADICTION]
+	Prem p99/d0050: The young boys are playing outdoors and the man is smiling nearby
+	Hypo p69/d0051: There is no boy playing outdoors and there is no man smiling
+No CLF file for p99/d0050
+No CLF file for p69/d0051
+Result for    4: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-24 [NEUTRAL]
+	Prem p19/d0022: A person in a black jacket is doing tricks on a motorbike
+	Hypo p60/d0025: A skilled person is riding a bicycle on one wheel
+No CLF file for p19/d0022
+No CLF file for p60/d0025
+Result for   24: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-105 [NEUTRAL]
+	Prem p00/d0035: Four children are doing backbends in the gym
+	Hypo p07/d0035: Four girls are doing backbends and playing outdoors
+No CLF file for p00/d0035
+No CLF file for p07/d0035
+Result for  105: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-116 [NEUTRAL]
+	Prem p66/d0024: A player is throwing the ball
+	Hypo p61/d0060: Two teams are competing in a football match
+No CLF file for p66/d0024
+No CLF file for p61/d0060
+Result for  116: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-119 [NEUTRAL]
+	Prem p82/d0034: Five children are standing in front of a wooden hut
+	Hypo p80/d0034: Five children are standing in a wooden hut
+No CLF file for p82/d0034
+No CLF file for p80/d0034
+Result for  119: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-185 [NEUTRAL]
+	Prem p74/d0034: Few people are eating at red tables in a restaurant without lights
+	Hypo p50/d0012: A large group of Asian people is eating at a restaurant
+No CLF file for p74/d0034
+No CLF file for p50/d0012
+Result for  185: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-197 [NEUTRAL]
+	Prem p51/d0039: Someone is on a black and white motorcycle and is standing on the seat
+	Hypo p86/d0021: A motorcycle is riding standing up on the seat of the vehicle
+No CLF file for p51/d0039
+No CLF file for p86/d0021
+Result for  197: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-211 [ENTAILMENT]
+	Prem p33/d0058: Two dogs are playing by a tree
+	Hypo p32/d0058: Two dogs are playing by a plant
+No CLF file for p33/d0058
+No CLF file for p32/d0058
+Result for  211: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-218 [ENTAILMENT]
+	Prem p51/d0009: A girl in white is dancing
+	Hypo p14/d0010: A girl is wearing white clothes and is dancing
+No CLF file for p51/d0009
+No CLF file for p14/d0010
+Result for  218: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-219 [CONTRADICTION]
+	Prem p62/d0052: There is no girl in white dancing
+	Hypo p51/d0009: A girl in white is dancing
+No CLF file for p62/d0052
+No CLF file for p51/d0009
+Result for  219: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-225 [NEUTRAL]
+	Prem p47/d0042: The equipment in front of the blond dancing girl is sound
+	Hypo p51/d0009: A girl in white is dancing
+No CLF file for p47/d0042
+No CLF file for p51/d0009
+Result for  225: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-228 [NEUTRAL]
+	Prem p51/d0009: A girl in white is dancing
+	Hypo p54/d0040: The blond girl is dancing in front of the sound equipment
+No CLF file for p51/d0009
+No CLF file for p54/d0040
+Result for  228: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-236 [NEUTRAL]
+	Prem p70/d0041: The children of a family are playing and waiting
+	Hypo p42/d0033: An Asian man is dancing and three kids are looking
+No CLF file for p70/d0041
+No CLF file for p42/d0033
+Result for  236: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-253 [ENTAILMENT]
+	Prem p58/d0011: A hiker is on top of the mountain and is doing a joyful dance
+	Hypo p57/d0011: A hiker is on top of the mountain and is dancing
+No CLF file for p58/d0011
+No CLF file for p57/d0011
+Result for  253: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-280 [NEUTRAL]
+	Prem p23/d0003: A boy is standing outside the water
+	Hypo p88/d0040: The boy is wading through the blue ocean
+No CLF file for p23/d0003
+No CLF file for p88/d0040
+Result for  280: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-285 [NEUTRAL]
+	Prem p33/d0000: A bald person is playing a guitar
+	Hypo p17/d0022: A person has blonde and flyaway hair and is playing a guitar
+No CLF file for p33/d0000
+No CLF file for p17/d0022
+Result for  285: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-304 [NEUTRAL]
+	Prem p10/d0034: An old, topless woman is covered in paint
+	Hypo p33/d0033: A young, topless woman is covered in paint
+No CLF file for p10/d0034
+No CLF file for p33/d0033
+Result for  304: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-317 [NEUTRAL]
+	Prem p58/d0010: A group of children in uniforms is standing at a gate and there is no one kissing the mother
+	Hypo p07/d0006: A crowd of people is near the water
+No CLF file for p58/d0010
+No CLF file for p07/d0006
+Result for  317: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-382 [NEUTRAL]
+	Prem p91/d0003: A brown and white dog is running through the tall grass
+	Hypo p82/d0003: A brown and white dog is moving through the wild grass
+No CLF file for p91/d0003
+No CLF file for p82/d0003
+Result for  382: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-384 [ENTAILMENT]
+	Prem p35/d0027: A white and tan dog is running through the tall and green grass
+	Hypo p34/d0027: A white and tan dog is running through a field
+No CLF file for p35/d0027
+No CLF file for p34/d0027
+Result for  384: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-394 [NEUTRAL]
+	Prem p54/d0019: A man is sitting near a bike and is writing a note
+	Hypo p20/d0020: A man is standing near a bike and is writing on a piece paper
+No CLF file for p54/d0019
+No CLF file for p20/d0020
+Result for  394: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-402 [NEUTRAL]
+	Prem p23/d0011: A group of scouts are hiking through the grass
+	Hypo p67/d0010: A group of explorers are walking through the grass
+No CLF file for p23/d0011
+No CLF file for p67/d0010
+Result for  402: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-417 [NEUTRAL]
+	Prem p64/d0059: Two men are taking a break from a trip on a snowy road
+	Hypo p78/d0059: Two men with cars are on the side of a snowy road
+No CLF file for p64/d0059
+No CLF file for p78/d0059
+Result for  417: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-450 [NEUTRAL]
+	Prem p30/d0012: A lady is surfing and riding a wave
+	Hypo p03/d0002: A blond girl is looking at the waves
+No CLF file for p30/d0012
+No CLF file for p03/d0002
+Result for  450: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-520 [NEUTRAL]
+	Prem p76/d0050: The woman wearing silver pants, pink bellbottoms and a pink scarf is riding a bike
+	Hypo p48/d0037: Pink bellbottoms and a pink scarf aren't to be worn by women with silver pants or bike riding people
+No CLF file for p76/d0050
+No CLF file for p48/d0037
+Result for  520: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-526 [NEUTRAL]
+	Prem p76/d0050: The woman wearing silver pants, pink bellbottoms and a pink scarf is riding a bike
+	Hypo p13/d0022: A pedestrian woman is building pink bicycles for boa wearing riders
+No CLF file for p76/d0050
+No CLF file for p13/d0022
+Result for  526: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-530 [NEUTRAL]
+	Prem p95/d0000: A biker is wearing gear which is black
+	Hypo p97/d0000: A biker wearing black is breaking the gears
+No CLF file for p95/d0000
+No CLF file for p97/d0000
+Result for  530: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-592 [CONTRADICTION]
+	Prem p29/d0031: A woman is taking off a cloak, which is very large, and revealing an extravagant dress
+	Hypo p28/d0030: A woman is putting on a cloak, which is very large, and concealing an extravagant dress
+No CLF file for p29/d0031
+No CLF file for p28/d0030
+Result for  592: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-619 [NEUTRAL]
+	Prem p55/d0002: A boy is climbing up a wall artificially built for climbing and is attached to a rope
+	Hypo p16/d0013: A little boy, who looks fearful, is on a climbing wall.
+No CLF file for p55/d0002
+No CLF file for p16/d0013
+Result for  619: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-630 [CONTRADICTION]
+	Prem p03/d0021: A man isn't tossing a kid into the swimming pool that is near the ocean
+	Hypo p59/d0046: The man is tossing a kid into the swimming pool that is near the ocean
+No CLF file for p03/d0021
+No CLF file for p59/d0046
+Result for  630: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-647 [NEUTRAL]
+	Prem p40/d0036: One man is climbing a cliff with a rope
+	Hypo p41/d0024: A person with pink climbing gear roped the rock
+No CLF file for p40/d0036
+No CLF file for p41/d0024
+Result for  647: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-651 [NEUTRAL]
+	Prem p46/d0022: A person is climbing a rock with a rope, which is pink
+	Hypo p40/d0036: One man is climbing a cliff with a rope
+No CLF file for p46/d0022
+No CLF file for p40/d0036
+Result for  651: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-687 [NEUTRAL]
+	Prem p86/d0036: One white dog is staring at the black street
+	Hypo p63/d0058: Two dogs of different breeds are looking at each other across a street
+No CLF file for p86/d0036
+No CLF file for p63/d0058
+Result for  687: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-698 [NEUTRAL]
+	Prem p90/d0007: A dog which is furry and black is in a back yard and is carrying a basket in its mouth
+	Hypo p83/d0007: A dog next to a tree, which is probably a pine, is biting a bucket
+No CLF file for p90/d0007
+No CLF file for p83/d0007
+Result for  698: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-717 [CONTRADICTION]
+	Prem p79/d0008: A few men in a competition are running outside
+	Hypo p77/d0008: A few men in a competition are running indoors
+No CLF file for p79/d0008
+No CLF file for p77/d0008
+Result for  717: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-718 [NEUTRAL]
+	Prem p79/d0008: A few men in a competition are running outside
+	Hypo p75/d0008: A few men are running competitions outside
+No CLF file for p79/d0008
+No CLF file for p75/d0008
+Result for  718: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-765 [NEUTRAL]
+	Prem p53/d0043: The kid is happily sliding in the snow
+	Hypo p47/d0003: A boy on a hill covered in snow is wearing a red jacket and a black hat and is sliding on his knees
+No CLF file for p53/d0043
+No CLF file for p47/d0003
+Result for  765: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-780 [NEUTRAL]
+	Prem p93/d0031: A woman, who is old, is near a white dog
+	Hypo p74/d0027: A woman and a dog are sitting on a tree stump
+No CLF file for p93/d0031
+No CLF file for p74/d0027
+Result for  780: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-816 [ENTAILMENT]
+	Prem p98/d0010: A group of people is equipped with protective gear
+	Hypo p97/d0010: A group of people is equipped with gear used for protection
+No CLF file for p98/d0010
+No CLF file for p97/d0010
+Result for  816: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-860 [ENTAILMENT]
+	Prem p83/d0036: One white dog and one black one are running side by side on the grass
+	Hypo p15/d0008: A dog, which has a black coat, and a white dog are running on the grass
+No CLF file for p83/d0036
+No CLF file for p15/d0008
+Result for  860: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-873 [NEUTRAL]
+	Prem p16/d0036: Not a lot of people are in an ice skating park
+	Hypo p90/d0033: An ice skating rink placed outdoors is full of people
+No CLF file for p16/d0036
+No CLF file for p90/d0033
+Result for  873: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-882 [NEUTRAL]
+	Prem p72/d0042: The girl in the blue and white uniform is cheering
+	Hypo p79/d0042: The girl is cheering the man in the blue and white uniform
+No CLF file for p72/d0042
+No CLF file for p79/d0042
+Result for  882: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-913 [CONTRADICTION]
+	Prem p25/d0028: A woman is being kissed by a man
+	Hypo p66/d0055: There is no woman being kissed by a man
+No CLF file for p25/d0028
+No CLF file for p66/d0055
+Result for  913: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-933 [NEUTRAL]
+	Prem p75/d0042: The girl in the red shirt is blowing a bubble
+	Hypo p07/d0051: The young girl is blowing a bubble that is huge
+No CLF file for p75/d0042
+No CLF file for p07/d0051
+Result for  933: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-947 [ENTAILMENT]
+	Prem p23/d0038: Some corndogs are being eaten by two toddlers who are in a wagon, which is really small
+	Hypo p65/d0060: Two toddlers are eating corndogs in a wagon, which is really small
+No CLF file for p23/d0038
+No CLF file for p65/d0060
+Result for  947: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-980 [NEUTRAL]
+	Prem p50/d0016: A man is getting on a horse on a track laid in the wild
+	Hypo p80/d0011: A horse is tossing the cowboy wearing pants of blue and red color
+No CLF file for p50/d0016
+No CLF file for p80/d0011
+Result for  980: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-987 [CONTRADICTION]
+	Prem p50/d0033: An adult is in the amphitheater and is talking to a boy
+	Hypo p41/d0051: There is no adult in the amphitheater talking to a boy
+No CLF file for p50/d0033
+No CLF file for p41/d0051
+Result for  987: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-988 [NEUTRAL]
+	Prem p54/d0026: A talk about an adult and a boy is given in the amphitheater
+	Hypo p50/d0033: An adult is in the amphitheater and is talking to a boy
+No CLF file for p54/d0026
+No CLF file for p50/d0033
+Result for  988: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1039 [NEUTRAL]
+	Prem p01/d0049: The snowboarder isn't leaping over white snow
+	Hypo p31/d0024: A person who is practicing snowboarding jumps into the air
+No CLF file for p01/d0049
+No CLF file for p31/d0024
+Result for 1039: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1102 [NEUTRAL]
+	Prem p47/d0030: A woman is riding a horse
+	Hypo p49/d0017: A man is opening a small package that contains headphones
+No CLF file for p47/d0030
+No CLF file for p49/d0017
+Result for 1102: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1137 [NEUTRAL]
+	Prem p89/d0008: A fish is hunting for a turtle in the sea
+	Hypo p26/d0049: The turtle is following the fish
+No CLF file for p89/d0008
+No CLF file for p26/d0049
+Result for 1137: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1170 [NEUTRAL]
+	Prem p79/d0024: A potato is being sliced by a woman
+	Hypo p80/d0030: A woman is slicing a carrot
+No CLF file for p79/d0024
+No CLF file for p80/d0030
+Result for 1170: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1177 [NEUTRAL]
+	Prem p55/d0028: A woman is combing her hair
+	Hypo p19/d0028: A woman is arranging her hair
+No CLF file for p55/d0028
+No CLF file for p19/d0028
+Result for 1177: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1178 [CONTRADICTION]
+	Prem p55/d0028: A woman is combing her hair
+	Hypo p71/d0055: There is no woman combing her hair
+No CLF file for p55/d0028
+No CLF file for p71/d0055
+Result for 1178: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-1190 [ENTAILMENT]
+	Prem p74/d0013: A man and a woman are hiking through a wooded area
+	Hypo p03/d0014: A man and a woman are walking together through the woods
+No CLF file for p74/d0013
+No CLF file for p03/d0014
+Result for 1190: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1192 [ENTAILMENT]
+	Prem p03/d0014: A man and a woman are walking together through the woods
+	Hypo p00/d0014: A man and a woman are walking through a wooded area
+No CLF file for p03/d0014
+No CLF file for p00/d0014
+Result for 1192: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1232 [NEUTRAL]
+	Prem p71/d0019: A man is slicing a bun
+	Hypo p77/d0019: A man is slicing a tomato
+No CLF file for p71/d0019
+No CLF file for p77/d0019
+Result for 1232: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1236 [CONTRADICTION]
+	Prem p97/d0028: A woman is dancing and singing alone
+	Hypo p99/d0028: A woman is dancing and singing with other women
+No CLF file for p97/d0028
+No CLF file for p99/d0028
+Result for 1236: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-1237 [NEUTRAL]
+	Prem p99/d0038: Some women are dancing and singing
+	Hypo p98/d0028: A woman is dancing and singing in the rain
+No CLF file for p99/d0038
+No CLF file for p98/d0028
+Result for 1237: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1241 [NEUTRAL]
+	Prem p99/d0028: A woman is dancing and singing with other women
+	Hypo p98/d0028: A woman is dancing and singing in the rain
+No CLF file for p99/d0028
+No CLF file for p98/d0028
+Result for 1241: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1266 [ENTAILMENT]
+	Prem p45/d0000: A band is playing on a stage
+	Hypo p46/d0000: A band is playing onstage
+No CLF file for p45/d0000
+No CLF file for p46/d0000
+Result for 1266: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1302 [NEUTRAL]
+	Prem p10/d0018: A man is playing flute
+	Hypo p89/d0017: A man is playing a game with a ball
+No CLF file for p10/d0018
+No CLF file for p89/d0017
+Result for 1302: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1333 [ENTAILMENT]
+	Prem p89/d0049: The woman is measuring the other woman
+	Hypo p27/d0028: A woman is being measured by another woman
+No CLF file for p89/d0049
+No CLF file for p27/d0028
+Result for 1333: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1390 [NEUTRAL]
+	Prem p91/d0023: A person is standing near a motorcycle
+	Hypo p43/d0022: A person is chopping an onion
+No CLF file for p91/d0023
+No CLF file for p43/d0022
+Result for 1390: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1396 [NEUTRAL]
+	Prem p17/d0019: A man is screaming
+	Hypo p16/d0019: A man is scared
+No CLF file for p17/d0019
+No CLF file for p16/d0019
+Result for 1396: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1400 [NEUTRAL]
+	Prem p21/d0025: A sad man is crying
+	Hypo p17/d0019: A man is screaming
+No CLF file for p21/d0025
+No CLF file for p17/d0019
+Result for 1400: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1410 [NEUTRAL]
+	Prem p89/d0028: A woman is cutting shrimps
+	Hypo p21/d0015: A man is chopping butter into a small container
+No CLF file for p89/d0028
+No CLF file for p21/d0015
+Result for 1410: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1412 [ENTAILMENT]
+	Prem p50/d0035: Men are sawing logs
+	Hypo p47/d0035: Men are cutting wood
+No CLF file for p50/d0035
+No CLF file for p47/d0035
+Result for 1412: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1443 [NEUTRAL]
+	Prem p48/d0020: A man is talking on the radio
+	Hypo p97/d0019: A man is spitting
+No CLF file for p48/d0020
+No CLF file for p97/d0019
+Result for 1443: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1469 [CONTRADICTION]
+	Prem p26/d0057: Three young men are running, jumping and kicking near a vending machine
+	Hypo p22/d0054: There is no man running, jumping and kicking near a vending machine
+No CLF file for p26/d0057
+No CLF file for p22/d0054
+Result for 1469: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-1470 [NEUTRAL]
+	Prem p88/d0056: Three men are jumping off a wall
+	Hypo p25/d0057: Three young men are furiously running, jumping and kicking near a vending machine
+No CLF file for p88/d0056
+No CLF file for p25/d0057
+Result for 1470: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1487 [CONTRADICTION]
+	Prem p65/d0045: The man is not stirring the sauce for the chicken
+	Hypo p51/d0046: The man is stirring the sauce for the chicken
+No CLF file for p65/d0045
+No CLF file for p51/d0046
+Result for 1487: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-1493 [ENTAILMENT]
+	Prem p06/d0018: A man is playing an electric guitar
+	Hypo p11/d0018: A man is playing guitar
+No CLF file for p06/d0018
+No CLF file for p11/d0018
+Result for 1493: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1495 [ENTAILMENT]
+	Prem p90/d0017: A man is playing a guitar
+	Hypo p39/d0020: A man is strumming a guitar
+No CLF file for p90/d0017
+No CLF file for p39/d0020
+Result for 1495: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1503 [CONTRADICTION]
+	Prem p64/d0056: Three boys in karate costumes aren't fighting
+	Hypo p63/d0056: Three boys in karate costumes are fighting
+No CLF file for p64/d0056
+No CLF file for p63/d0056
+Result for 1503: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-1506 [NEUTRAL]
+	Prem p97/d0056: Three men are practicing karate outdoors
+	Hypo p63/d0056: Three boys in karate costumes are fighting
+No CLF file for p97/d0056
+No CLF file for p63/d0056
+Result for 1506: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1525 [NEUTRAL]
+	Prem p93/d0029: A woman is planting some flowers
+	Hypo p82/d0028: A woman is cutting broccoli
+No CLF file for p93/d0029
+No CLF file for p82/d0028
+Result for 1525: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1584 [ENTAILMENT]
+	Prem p60/d0011: A hole is being burrowed by the badger
+	Hypo p29/d0000: A badger is shrewdly digging the earth
+No CLF file for p60/d0011
+No CLF file for p29/d0000
+Result for 1584: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1608 [CONTRADICTION]
+	Prem p08/d0026: A snake is being fed a mouse by a man
+	Hypo p76/d0035: No snake is being fed a mouse by a man
+No CLF file for p08/d0026
+No CLF file for p76/d0035
+Result for 1608: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-1628 [NEUTRAL]
+	Prem p41/d0038: Some ingredients are being mixed in a bowl by a person
+	Hypo p42/d0038: Some ingredients are being separated in a bowl by a person
+No CLF file for p41/d0038
+No CLF file for p42/d0038
+Result for 1628: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1676 [NEUTRAL]
+	Prem p19/d0002: A boat is sailing peacefully over the water
+	Hypo p31/d0043: The guitar is being played by the man
+No CLF file for p19/d0002
+No CLF file for p31/d0043
+Result for 1676: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1690 [ENTAILMENT]
+	Prem p21/d0047: The milk is being drunk by a cat
+	Hypo p28/d0041: The cat is drinking some milk
+No CLF file for p21/d0047
+No CLF file for p28/d0041
+Result for 1690: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1703 [ENTAILMENT]
+	Prem p20/d0016: A man is emptying a container made of plastic completely
+	Hypo p19/d0016: A man is emptying a container made of plastic
+No CLF file for p20/d0016
+No CLF file for p19/d0016
+Result for 1703: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1711 [NEUTRAL]
+	Prem p19/d0016: A man is emptying a container made of plastic
+	Hypo p10/d0015: A man is carelessly holding a frog
+No CLF file for p19/d0016
+No CLF file for p10/d0015
+Result for 1711: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1754 [ENTAILMENT]
+	Prem p95/d0008: A flute is being played in a lovely way by a girl
+	Hypo p92/d0008: A flute is being played by a girl
+No CLF file for p95/d0008
+No CLF file for p92/d0008
+Result for 1754: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1807 [NEUTRAL]
+	Prem p93/d0039: The adult is playing the guitar loudly
+	Hypo p93/d0008: A flute is being played by a man
+No CLF file for p93/d0039
+No CLF file for p93/d0008
+Result for 1807: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1811 [NEUTRAL]
+	Prem p20/d0018: A man is playing the guitar loudly
+	Hypo p97/d0008: A flute isn't being played by a man
+No CLF file for p20/d0018
+No CLF file for p97/d0008
+Result for 1811: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1839 [ENTAILMENT]
+	Prem p06/d0043: The girl, who is little, is carefully combing her hair into a pony tail
+	Hypo p07/d0043: The girl, who is little, is combing her hair into a pony tail.
+No CLF file for p06/d0043
+No CLF file for p07/d0043
+Result for 1839: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1847 [NEUTRAL]
+	Prem p60/d0036: One man is sitting on the chair
+	Hypo p08/d0043: The girl, who is little, is ruffling her hair
+No CLF file for p60/d0036
+No CLF file for p08/d0043
+Result for 1847: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1861 [NEUTRAL]
+	Prem p17/d0047: The microphone in front of the talking parrot is being muted
+	Hypo p54/d0047: The parrot is talking into the microphone
+No CLF file for p17/d0047
+No CLF file for p54/d0047
+Result for 1861: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1877 [NEUTRAL]
+	Prem p68/d0043: The kittens on the trays are being eaten as food for an advertisement
+	Hypo p55/d0042: The food on the trays is being eaten by the kittens
+No CLF file for p68/d0043
+No CLF file for p55/d0042
+Result for 1877: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-1881 [ENTAILMENT]
+	Prem p55/d0042: The food on the trays is being eaten by the kittens
+	Hypo p70/d0008: A few kittens are eating
+No CLF file for p55/d0042
+No CLF file for p70/d0008
+Result for 1881: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-1964 [ENTAILMENT]
+	Prem p71/d0036: One person is playing the guitar and singing
+	Hypo p25/d0023: A person is playing a guitar and singing
+No CLF file for p71/d0036
+No CLF file for p25/d0023
+Result for 1964: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2001 [ENTAILMENT]
+	Prem p42/d0043: The horse is being ridden by a man
+	Hypo p00/d0019: A man is riding the horse
+No CLF file for p42/d0043
+No CLF file for p00/d0019
+Result for 2001: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2019 [NEUTRAL]
+	Prem p77/d0015: A man is dangerously throwing knives at a tree
+	Hypo p24/d0038: Some dangerous men with knives are throwing a bike against a tree
+No CLF file for p77/d0015
+No CLF file for p24/d0038
+Result for 2019: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2058 [ENTAILMENT]
+	Prem p22/d0012: A lady is cutting up some meat precisely
+	Hypo p48/d0038: Some meat is being cut into pieces by a woman
+No CLF file for p22/d0012
+No CLF file for p48/d0038
+Result for 2058: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2089 [CONTRADICTION]
+	Prem p86/d0044: The man is denying an interview
+	Hypo p19/d0045: The man is granting an interview
+No CLF file for p86/d0044
+No CLF file for p19/d0045
+Result for 2089: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2096 [NEUTRAL]
+	Prem p19/d0045: The man is granting an interview
+	Hypo p56/d0021: A man's white car is being driven away
+No CLF file for p19/d0045
+No CLF file for p56/d0021
+Result for 2096: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2130 [NEUTRAL]
+	Prem p73/d0025: A small boy is scolding a dog
+	Hypo p72/d0025: A small boy is playing with a dog
+No CLF file for p73/d0025
+No CLF file for p72/d0025
+Result for 2130: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2157 [NEUTRAL]
+	Prem p32/d0048: The picture of a camera set up is being taken by a man on the beach at the sunset
+	Hypo p43/d0020: A man is taking pictures of a lake
+No CLF file for p32/d0048
+No CLF file for p43/d0020
+Result for 2157: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2166 [ENTAILMENT]
+	Prem p63/d0030: A woman is sewing with a machine
+	Hypo p45/d0031: A woman is using a machine made for sewing
+No CLF file for p63/d0030
+No CLF file for p45/d0031
+Result for 2166: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2221 [NEUTRAL]
+	Prem p38/d0039: Someone is falling off a horse
+	Hypo p48/d0045: The man is not knocked off of a horse
+No CLF file for p38/d0039
+No CLF file for p48/d0045
+Result for 2221: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2229 [NEUTRAL]
+	Prem p39/d0031: A woman is tapping her fingers on a table
+	Hypo p43/d0030: A woman is resting her fingers on a table
+No CLF file for p39/d0031
+No CLF file for p43/d0030
+Result for 2229: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2231 [NEUTRAL]
+	Prem p36/d0031: A woman is tapping her fingers
+	Hypo p43/d0030: A woman is resting her fingers on a table
+No CLF file for p36/d0031
+No CLF file for p43/d0030
+Result for 2231: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2284 [ENTAILMENT]
+	Prem p36/d0041: The cat is playing passionately with a watermelon
+	Hypo p38/d0041: The cat is playing with a watermelon
+No CLF file for p36/d0041
+No CLF file for p38/d0041
+Result for 2284: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2286 [ENTAILMENT]
+	Prem p36/d0041: The cat is playing passionately with a watermelon
+	Hypo p70/d0004: A cat is playing with a watermelon
+No CLF file for p36/d0041
+No CLF file for p70/d0004
+Result for 2286: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2362 [NEUTRAL]
+	Prem p39/d0022: A person is burning some cameras with a blow torch
+	Hypo p19/d0049: The tall person is setting fire to the cameras
+No CLF file for p39/d0022
+No CLF file for p19/d0049
+Result for 2362: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2364 [ENTAILMENT]
+	Prem p10/d0038: Some cameras are being burned by a person with a blow torch
+	Hypo p04/d0048: The person is setting fire to the cameras
+No CLF file for p10/d0038
+No CLF file for p04/d0048
+Result for 2364: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2366 [NEUTRAL]
+	Prem p16/d0022: A person by some cameras is blowing on a burning torch
+	Hypo p04/d0048: The person is setting fire to the cameras
+No CLF file for p16/d0022
+No CLF file for p04/d0048
+Result for 2366: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2385 [NEUTRAL]
+	Prem p53/d0022: A person is cutting an onion into pieces
+	Hypo p74/d0023: A person is slicing a carrot into pieces
+No CLF file for p53/d0022
+No CLF file for p74/d0023
+Result for 2385: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2392 [CONTRADICTION]
+	Prem p61/d0045: The man is not slicing the potato
+	Hypo p28/d0046: The man is slicing a potato
+No CLF file for p61/d0045
+No CLF file for p28/d0046
+Result for 2392: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2402 [NEUTRAL]
+	Prem p30/d0039: Someone is cutting a tomato
+	Hypo p84/d0049: The woman is holding a whole tomato
+No CLF file for p30/d0039
+No CLF file for p84/d0049
+Result for 2402: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2404 [CONTRADICTION]
+	Prem p85/d0043: The lady is slicing a tomato
+	Hypo p86/d0054: There is no one cutting a tomato
+No CLF file for p85/d0043
+No CLF file for p86/d0054
+Result for 2404: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2405 [ENTAILMENT]
+	Prem p85/d0043: The lady is slicing a tomato
+	Hypo p30/d0039: Someone is cutting a tomato
+No CLF file for p85/d0043
+No CLF file for p30/d0039
+Result for 2405: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2410 [NEUTRAL]
+	Prem p44/d0018: A man is preparing some dish
+	Hypo p21/d0034: An onion is being sliced with a knife by the woman
+No CLF file for p44/d0018
+No CLF file for p21/d0034
+Result for 2410: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2430 [ENTAILMENT]
+	Prem p59/d0036: One man is running down the road
+	Hypo p11/d0019: A man is running
+No CLF file for p59/d0036
+No CLF file for p11/d0019
+Result for 2430: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2476 [ENTAILMENT]
+	Prem p70/d0038: Some people are singing
+	Hypo p09/d0011: A group of people is singing
+No CLF file for p70/d0038
+No CLF file for p09/d0011
+Result for 2476: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2485 [NEUTRAL]
+	Prem p80/d0045: The man is playing a guitar
+	Hypo p01/d0018: A man is playing a trumpet
+No CLF file for p80/d0045
+No CLF file for p01/d0018
+Result for 2485: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2525 [NEUTRAL]
+	Prem p81/d0008: A few people are floating on a raft
+	Hypo p22/d0037: People are riding and paddling a raft
+No CLF file for p81/d0008
+No CLF file for p22/d0037
+Result for 2525: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2527 [NEUTRAL]
+	Prem p22/d0037: People are riding and paddling a raft
+	Hypo p11/d0035: Four people are floating on a raft
+No CLF file for p22/d0037
+No CLF file for p11/d0035
+Result for 2527: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2535 [NEUTRAL]
+	Prem p82/d0051: There is no cat eating corn on the cob
+	Hypo p53/d0004: A cat is eating some corn
+No CLF file for p82/d0051
+No CLF file for p53/d0004
+Result for 2535: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2544 [NEUTRAL]
+	Prem p06/d0048: The person is slicing a vegetable
+	Hypo p10/d0036: Nobody is slicing a tomato
+No CLF file for p06/d0048
+No CLF file for p10/d0036
+Result for 2544: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2557 [ENTAILMENT]
+	Prem p76/d0039: Someone is strumming the guitar
+	Hypo p56/d0039: Someone is playing the guitar
+No CLF file for p76/d0039
+No CLF file for p56/d0039
+Result for 2557: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2566 [ENTAILMENT]
+	Prem p18/d0057: Three women are dancing
+	Hypo p85/d0008: A few women are dancing
+No CLF file for p18/d0057
+No CLF file for p85/d0008
+Result for 2566: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2604 [ENTAILMENT]
+	Prem p33/d0004: A bull dog is being brushed by the monkey
+	Hypo p23/d0047: The monkey is brushing a bull dog
+No CLF file for p33/d0004
+No CLF file for p23/d0047
+Result for 2604: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2606 [NEUTRAL]
+	Prem p23/d0047: The monkey is brushing a bull dog
+	Hypo p34/d0004: A bull dog is brushing the monkey
+No CLF file for p23/d0047
+No CLF file for p34/d0004
+Result for 2606: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2662 [NEUTRAL]
+	Prem p91/d0043: The lady isn't cracking an egg for the mixer
+	Hypo p86/d0043: The lady is slicing up the meat
+No CLF file for p91/d0043
+No CLF file for p86/d0043
+Result for 2662: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2668 [NEUTRAL]
+	Prem p68/d0008: A few ferrets are climbing out of the cage
+	Hypo p71/d0034: Ferrets are climbing down from a shelf
+No CLF file for p68/d0008
+No CLF file for p71/d0034
+Result for 2668: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2678 [ENTAILMENT]
+	Prem p66/d0016: A man is hurriedly getting into a car in a garage
+	Hypo p45/d0016: A man is getting into a car
+No CLF file for p66/d0016
+No CLF file for p45/d0016
+Result for 2678: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2679 [NEUTRAL]
+	Prem p60/d0017: A man is parking a car in a garage
+	Hypo p45/d0016: A man is getting into a car
+No CLF file for p60/d0017
+No CLF file for p45/d0016
+Result for 2679: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2687 [CONTRADICTION]
+	Prem p05/d0048: The person is slicing a clove of garlic into pieces
+	Hypo p87/d0047: The person is not slicing a clove of garlic into pieces
+No CLF file for p05/d0048
+No CLF file for p87/d0047
+Result for 2687: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2704 [ENTAILMENT]
+	Prem p15/d0036: Noodles are being boiled in water by a woman
+	Hypo p30/d0028: A woman is boiling noodles in water
+No CLF file for p15/d0036
+No CLF file for p30/d0028
+Result for 2704: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2712 [CONTRADICTION]
+	Prem p83/d0052: There is no karate practitioner kicking at another man who is wearing protective boxing gloves
+	Hypo p87/d0011: A karate practitioner is kicking at another man who is wearing protective boxing gloves
+No CLF file for p83/d0052
+No CLF file for p87/d0011
+Result for 2712: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2720 [NEUTRAL]
+	Prem p25/d0045: The man is kick boxing with a trainer
+	Hypo p83/d0052: There is no karate practitioner kicking at another man who is wearing protective boxing gloves
+No CLF file for p25/d0045
+No CLF file for p83/d0052
+Result for 2720: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2721 [NEUTRAL]
+	Prem p25/d0045: The man is kick boxing with a trainer
+	Hypo p87/d0011: A karate practitioner is kicking at another man who is wearing protective boxing gloves
+No CLF file for p25/d0045
+No CLF file for p87/d0011
+Result for 2721: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2722 [ENTAILMENT]
+	Prem p94/d0031: A woman, who is seated, is singing a song and playing the guitar
+	Hypo p28/d0025: A seated woman is singing a song and playing the guitar
+No CLF file for p94/d0031
+No CLF file for p28/d0025
+Result for 2722: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2726 [NEUTRAL]
+	Prem p77/d0031: A woman on a rock is lying on a blanket and reading a book
+	Hypo p54/d0030: A woman is rocking over a blanket lying on someone reading a book
+No CLF file for p77/d0031
+No CLF file for p54/d0030
+Result for 2726: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2738 [NEUTRAL]
+	Prem p03/d0050: The woman is not playing an electric guitar
+	Hypo p05/d0018: A man is playing an acoustic guitar
+No CLF file for p03/d0050
+No CLF file for p05/d0018
+Result for 2738: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2766 [NEUTRAL]
+	Prem p10/d0014: A man and woman are talking
+	Hypo p72/d0013: A man and a woman are eating happily
+No CLF file for p10/d0014
+No CLF file for p72/d0013
+Result for 2766: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2772 [ENTAILMENT]
+	Prem p31/d0023: A person is pouring oil for cooking into a pot
+	Hypo p30/d0023: A person is pouring cooking oil into a pot
+No CLF file for p31/d0023
+No CLF file for p30/d0023
+Result for 2772: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2791 [ENTAILMENT]
+	Prem p30/d0011: A guinea pig, which is small, is gnawing and eating a piece of carrot on the floor
+	Hypo p95/d0025: A small guinea pig is gnawing and eating a piece of carrot on the floor
+No CLF file for p30/d0011
+No CLF file for p95/d0025
+Result for 2791: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2795 [ENTAILMENT]
+	Prem p95/d0025: A small guinea pig is gnawing and eating a piece of carrot on the floor
+	Hypo p28/d0011: A guinea pig is devouring a carrot
+No CLF file for p95/d0025
+No CLF file for p28/d0011
+Result for 2795: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2812 [NEUTRAL]
+	Prem p61/d0024: A plane is landing
+	Hypo p77/d0033: An animated airplane is taking off
+No CLF file for p61/d0024
+No CLF file for p77/d0033
+Result for 2812: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2822 [NEUTRAL]
+	Prem p27/d0031: A woman is taking a mixture out of a bowl
+	Hypo p15/d0030: A woman is preparing an egg in a skillet
+No CLF file for p27/d0031
+No CLF file for p15/d0030
+Result for 2822: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2829 [ENTAILMENT]
+	Prem p83/d0043: The lady is penciling on eyeshadow
+	Hypo p19/d0050: The woman is penciling on eyeshadow
+No CLF file for p83/d0043
+No CLF file for p19/d0050
+Result for 2829: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2842 [NEUTRAL]
+	Prem p39/d0013: A little girl is playing a grand piano on stage
+	Hypo p87/d0009: A girl is practicing the piano
+No CLF file for p39/d0013
+No CLF file for p87/d0009
+Result for 2842: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2886 [CONTRADICTION]
+	Prem p94/d0029: A woman is playing a flute
+	Hypo p04/d0050: The woman is not playing the flute
+No CLF file for p94/d0029
+No CLF file for p04/d0050
+Result for 2886: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2898 [ENTAILMENT]
+	Prem p27/d0045: The man is lifting barbells
+	Hypo p28/d0045: The man is lifting weights
+No CLF file for p27/d0045
+No CLF file for p28/d0045
+Result for 2898: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2911 [CONTRADICTION]
+	Prem p31/d0030: A woman is putting on makeup
+	Hypo p09/d0056: There is no woman putting on makeup
+No CLF file for p31/d0030
+No CLF file for p09/d0056
+Result for 2911: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2932 [NEUTRAL]
+	Prem p67/d0049: The woman is cutting a carrot
+	Hypo p19/d0034: An onion is being sliced by a woman
+No CLF file for p67/d0049
+No CLF file for p19/d0034
+Result for 2932: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2936 [NEUTRAL]
+	Prem p26/d0059: Two men are fighting in a cattle pen
+	Hypo p45/d0059: Two men are outside a cattle pen
+No CLF file for p26/d0059
+No CLF file for p45/d0059
+Result for 2936: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2965 [NEUTRAL]
+	Prem p79/d0000: A big green ball is missing a potato
+	Hypo p78/d0000: A big green ball is knocking a potato
+No CLF file for p79/d0000
+No CLF file for p78/d0000
+Result for 2965: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2967 [ENTAILMENT]
+	Prem p47/d0012: A large green ball is hitting a potato
+	Hypo p49/d0012: A large green colored ball is hitting a potato
+No CLF file for p47/d0012
+No CLF file for p49/d0012
+Result for 2967: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-2968 [NEUTRAL]
+	Prem p48/d0012: A large green ball is missing a potato
+	Hypo p47/d0012: A large green ball is hitting a potato
+No CLF file for p48/d0012
+No CLF file for p47/d0012
+Result for 2968: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-2972 [CONTRADICTION]
+	Prem p47/d0012: A large green ball is hitting a potato
+	Hypo p79/d0000: A big green ball is missing a potato
+No CLF file for p47/d0012
+No CLF file for p79/d0000
+Result for 2972: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-2996 [NEUTRAL]
+	Prem p90/d0017: A man is playing a guitar
+	Hypo p89/d0016: A man is laying down a guitar
+No CLF file for p90/d0017
+No CLF file for p89/d0016
+Result for 2996: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3002 [NEUTRAL]
+	Prem p97/d0029: A woman is playing an electric guitar
+	Hypo p89/d0016: A man is laying down a guitar
+No CLF file for p97/d0029
+No CLF file for p89/d0016
+Result for 3002: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3036 [CONTRADICTION]
+	Prem p55/d0048: The puppy is not playing with a plastic container
+	Hypo p57/d0048: The puppy is playing with a plastic container
+No CLF file for p55/d0048
+No CLF file for p57/d0048
+Result for 3036: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3061 [CONTRADICTION]
+	Prem p13/d0029: A woman is driving a car and is talking to the man who is seated beside her
+	Hypo p88/d0055: There is no woman driving a car and talking to the man seated beside her
+No CLF file for p13/d0029
+No CLF file for p88/d0055
+Result for 3061: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3107 [NEUTRAL]
+	Prem p39/d0016: A man is flooring a sitting guitar player
+	Hypo p62/d0019: A man is sitting on the floor in a room and strumming a guitar
+No CLF file for p39/d0016
+No CLF file for p62/d0019
+Result for 3107: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3122 [ENTAILMENT]
+	Prem p46/d0031: A woman is using a pencil for eyes and is applying eye liner to her eyelid
+	Hypo p18/d0028: A woman is applying cosmetics to her eyelid
+No CLF file for p46/d0031
+No CLF file for p18/d0028
+Result for 3122: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3123 [CONTRADICTION]
+	Prem p31/d0056: There is no woman using an eye pencil and applying eye liner to her eyelid
+	Hypo p18/d0028: A woman is applying cosmetics to her eyelid
+No CLF file for p31/d0056
+No CLF file for p18/d0028
+Result for 3123: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3143 [NEUTRAL]
+	Prem p71/d0021: A monkey is kicking at a person's glove
+	Hypo p26/d0047: The monkey is practicing martial arts
+No CLF file for p71/d0021
+No CLF file for p26/d0047
+Result for 3143: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3174 [NEUTRAL]
+	Prem p09/d0012: A kid is throwing away an instrument
+	Hypo p29/d0032: A young boy is playing a wind instrument
+No CLF file for p09/d0012
+No CLF file for p29/d0032
+Result for 3174: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3181 [NEUTRAL]
+	Prem p57/d0020: A man is trekking in the woods
+	Hypo p46/d0045: The man is not hiking in the woods
+No CLF file for p57/d0020
+No CLF file for p46/d0045
+Result for 3181: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3222 [CONTRADICTION]
+	Prem p71/d0051: There is no boy walking across a bridge
+	Hypo p31/d0003: A boy is walking across a bridge
+No CLF file for p71/d0051
+No CLF file for p31/d0003
+Result for 3222: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3250 [ENTAILMENT]
+	Prem p92/d0029: A woman is placing two eggs into a pot of water
+	Hypo p36/d0030: A woman is putting two eggs into a pot of water
+No CLF file for p92/d0029
+No CLF file for p36/d0030
+Result for 3250: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3258 [CONTRADICTION]
+	Prem p19/d0018: A man is playing the guitar
+	Hypo p99/d0035: Nobody is playing the guitar
+No CLF file for p19/d0018
+No CLF file for p99/d0035
+Result for 3258: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3275 [ENTAILMENT]
+	Prem p19/d0005: A child is running in and out of the waves of the ocean
+	Hypo p18/d0005: A child is running in and out of the ocean waves
+No CLF file for p19/d0005
+No CLF file for p18/d0005
+Result for 3275: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3291 [NEUTRAL]
+	Prem p21/d0030: A woman is putting away carrots
+	Hypo p52/d0028: A woman is coating a pork chop
+No CLF file for p21/d0030
+No CLF file for p52/d0028
+Result for 3291: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3292 [NEUTRAL]
+	Prem p36/d0029: A woman is grating carrots
+	Hypo p71/d0005: A cook is coating a pork chop
+No CLF file for p36/d0029
+No CLF file for p71/d0005
+Result for 3292: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3322 [NEUTRAL]
+	Prem p60/d0049: The woman is chopping some bread and fried pork
+	Hypo p56/d0028: A woman is cooking a breaded pork chop
+No CLF file for p60/d0049
+No CLF file for p56/d0028
+Result for 3322: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3338 [CONTRADICTION]
+	Prem p57/d0054: There is no man standing on a roof top and playing a violin
+	Hypo p27/d0020: A man is standing on a roof top and playing a violin
+No CLF file for p57/d0054
+No CLF file for p27/d0020
+Result for 3338: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3364 [ENTAILMENT]
+	Prem p50/d0028: A woman is cleaning a shrimp
+	Hypo p61/d0049: The woman is cleaning a shrimp
+No CLF file for p50/d0028
+No CLF file for p61/d0049
+Result for 3364: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3373 [ENTAILMENT]
+	Prem p50/d0030: A woman is riding a water scooter
+	Hypo p48/d0030: A woman is riding a scooter for water
+No CLF file for p50/d0030
+No CLF file for p48/d0030
+Result for 3373: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3384 [ENTAILMENT]
+	Prem p07/d0022: A panda bear is eating some bamboo
+	Hypo p00/d0038: Some bamboo is being eaten by a panda bear
+No CLF file for p07/d0022
+No CLF file for p00/d0038
+Result for 3384: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3398 [NEUTRAL]
+	Prem p22/d0039: Someone is beating an egg
+	Hypo p73/d0050: The woman isn't stirring eggs in a bowl
+No CLF file for p22/d0039
+No CLF file for p73/d0050
+Result for 3398: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3420 [NEUTRAL]
+	Prem p06/d0029: A woman is deboning a fish
+	Hypo p77/d0000: A big fish is catching a man
+No CLF file for p06/d0029
+No CLF file for p77/d0000
+Result for 3420: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3433 [ENTAILMENT]
+	Prem p13/d0027: A tray is being buttered by a person
+	Hypo p40/d0022: A person is buttering a tray
+No CLF file for p13/d0027
+No CLF file for p40/d0022
+Result for 3433: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3459 [NEUTRAL]
+	Prem p72/d0044: The man is chopping a tree trunk with an axe
+	Hypo p17/d0015: A man is chopping a log with an axe
+No CLF file for p72/d0044
+No CLF file for p17/d0015
+Result for 3459: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3485 [NEUTRAL]
+	Prem p34/d0041: The cat is looking out the window at the table on the perch
+	Hypo p43/d0041: The cat perched on the table is looking out the window
+No CLF file for p34/d0041
+No CLF file for p43/d0041
+Result for 3485: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3501 [ENTAILMENT]
+	Prem p01/d0007: A dog is licking a baby
+	Hypo p16/d0042: The dog is licking the baby
+No CLF file for p01/d0007
+No CLF file for p16/d0042
+Result for 3501: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3505 [NEUTRAL]
+	Prem p22/d0030: A woman is putting away the garlic
+	Hypo p48/d0028: A woman is chopping up garlic
+No CLF file for p22/d0030
+No CLF file for p48/d0028
+Result for 3505: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3518 [NEUTRAL]
+	Prem p36/d0045: The man is not dancing
+	Hypo p94/d0028: A woman is dancing
+No CLF file for p36/d0045
+No CLF file for p94/d0028
+Result for 3518: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3536 [ENTAILMENT]
+	Prem p29/d0039: Someone is cooking okra in a pan
+	Hypo p22/d0036: Okra is being cooked in a pan
+No CLF file for p29/d0039
+No CLF file for p22/d0036
+Result for 3536: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3586 [ENTAILMENT]
+	Prem p15/d0018: A man is playing the drum
+	Hypo p40/d0018: A man is practicing the drum
+No CLF file for p15/d0018
+No CLF file for p40/d0018
+Result for 3586: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3598 [ENTAILMENT]
+	Prem p49/d0036: One man is doing floor exercises
+	Hypo p92/d0015: A man is doing exercises
+No CLF file for p49/d0036
+No CLF file for p92/d0015
+Result for 3598: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3625 [CONTRADICTION]
+	Prem p27/d0030: A woman is putting meat in a pan
+	Hypo p07/d0056: There is no woman putting meat in a pan
+No CLF file for p27/d0030
+No CLF file for p07/d0056
+Result for 3625: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3626 [ENTAILMENT]
+	Prem p36/d0039: Someone is dropping the meat into a pan
+	Hypo p92/d0046: The meat is being dropped into a pan
+No CLF file for p36/d0039
+No CLF file for p92/d0046
+Result for 3626: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3657 [ENTAILMENT]
+	Prem p62/d0002: A boy is filling a pitcher with water
+	Hypo p58/d0024: A pitcher is being filled with water by a boy
+No CLF file for p62/d0002
+No CLF file for p58/d0024
+Result for 3657: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3661 [NEUTRAL]
+	Prem p54/d0028: A woman is collecting the water from a tap in a mug
+	Hypo p62/d0002: A boy is filling a pitcher with water
+No CLF file for p54/d0028
+No CLF file for p62/d0002
+Result for 3661: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3670 [ENTAILMENT]
+	Prem p35/d0035: It is raining on a walking man
+	Hypo p73/d0020: A man is walking in the rain
+No CLF file for p35/d0035
+No CLF file for p73/d0020
+Result for 3670: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3680 [CONTRADICTION]
+	Prem p52/d0037: Racers are running down a track
+	Hypo p34/d0051: There are no racers running down a track
+No CLF file for p52/d0037
+No CLF file for p34/d0051
+Result for 3680: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3711 [CONTRADICTION]
+	Prem p11/d0027: A toy train is striking a toy car
+	Hypo p10/d0027: A toy train is missing a toy car
+No CLF file for p11/d0027
+No CLF file for p10/d0027
+Result for 3711: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3721 [ENTAILMENT]
+	Prem p07/d0048: The person is slicing onions
+	Hypo p99/d0036: Onions are being sliced by the person
+No CLF file for p07/d0048
+No CLF file for p99/d0036
+Result for 3721: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3733 [ENTAILMENT]
+	Prem p85/d0039: Swimmers are racing in a lake
+	Hypo p86/d0038: Some racers are swimming in a lake
+No CLF file for p85/d0039
+No CLF file for p86/d0038
+Result for 3733: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3747 [NEUTRAL]
+	Prem p53/d0026: A talented man is playing the guitar
+	Hypo p95/d0029: A woman is playing a guitar
+No CLF file for p53/d0026
+No CLF file for p95/d0029
+Result for 3747: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3790 [ENTAILMENT]
+	Prem p64/d0023: A person is scrubbing a zucchini
+	Hypo p03/d0048: The person is scrubbing a zucchini
+No CLF file for p64/d0023
+No CLF file for p03/d0048
+Result for 3790: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3812 [ENTAILMENT]
+	Prem p86/d0030: A woman is slicing a pepper which is green
+	Hypo p84/d0030: A woman is slicing a green pepper
+No CLF file for p86/d0030
+No CLF file for p84/d0030
+Result for 3812: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3855 [NEUTRAL]
+	Prem p36/d0020: A man is stopping in the middle of a road
+	Hypo p70/d0020: A man is walking down a road
+No CLF file for p36/d0020
+No CLF file for p70/d0020
+Result for 3855: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3861 [NEUTRAL]
+	Prem p23/d0014: A man from the wilderness is on a walking path
+	Hypo p70/d0020: A man is walking down a road
+No CLF file for p23/d0014
+No CLF file for p70/d0020
+Result for 3861: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3862 [NEUTRAL]
+	Prem p64/d0046: The man is walking along a path through the wilderness
+	Hypo p90/d0016: A man is lazily walking down a road
+No CLF file for p64/d0046
+No CLF file for p90/d0016
+Result for 3862: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3880 [ENTAILMENT]
+	Prem p69/d0015: A man is dancing on the ceiling of a room
+	Hypo p85/d0044: The man is dancing upside-down on the ceiling
+No CLF file for p69/d0015
+No CLF file for p85/d0044
+Result for 3880: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3897 [CONTRADICTION]
+	Prem p48/d0053: There is no man exercising
+	Hypo p24/d0016: A man is exercising
+No CLF file for p48/d0053
+No CLF file for p24/d0016
+Result for 3897: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3909 [ENTAILMENT]
+	Prem p19/d0046: The man is singing and playing the guitar
+	Hypo p29/d0043: The guitar is being played by a man
+No CLF file for p19/d0046
+No CLF file for p29/d0043
+Result for 3909: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-3910 [NEUTRAL]
+	Prem p58/d0017: A man is packing the guitar
+	Hypo p19/d0046: The man is singing and playing the guitar
+No CLF file for p58/d0017
+No CLF file for p19/d0046
+Result for 3910: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3922 [CONTRADICTION]
+	Prem p34/d0034: Boys are not dancing in front of some people
+	Hypo p32/d0034: Boys are dancing in front of some people
+No CLF file for p34/d0034
+No CLF file for p32/d0034
+Result for 3922: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3941 [CONTRADICTION]
+	Prem p80/d0002: A boy is looking at a calendar
+	Hypo p58/d0051: There is no boy checking a calendar
+No CLF file for p80/d0002
+No CLF file for p58/d0051
+Result for 3941: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-3982 [NEUTRAL]
+	Prem p75/d0029: A woman is peeling a potato
+	Hypo p38/d0030: A woman is refrigerating a potato
+No CLF file for p75/d0029
+No CLF file for p38/d0030
+Result for 3982: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-3996 [NEUTRAL]
+	Prem p29/d0054: There is no man singing and playing a guitar
+	Hypo p89/d0002: A boy is playing a piano
+No CLF file for p29/d0054
+No CLF file for p89/d0002
+Result for 3996: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4001 [ENTAILMENT]
+	Prem p69/d0018: A man is recklessly climbing a rope
+	Hypo p26/d0015: A man is climbing a rope
+No CLF file for p69/d0018
+No CLF file for p26/d0015
+Result for 4001: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4006 [ENTAILMENT]
+	Prem p26/d0015: A man is climbing a rope
+	Hypo p75/d0044: The man is climbing up a rope
+No CLF file for p26/d0015
+No CLF file for p75/d0044
+Result for 4006: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4011 [ENTAILMENT]
+	Prem p26/d0015: A man is climbing a rope
+	Hypo p27/d0015: A man is climbing up a rope
+No CLF file for p26/d0015
+No CLF file for p27/d0015
+Result for 4011: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4015 [ENTAILMENT]
+	Prem p84/d0043: The lady is picking up the kangaroo
+	Hypo p23/d0050: The woman is picking up the kangaroo
+No CLF file for p84/d0043
+No CLF file for p23/d0050
+Result for 4015: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4031 [NEUTRAL]
+	Prem p03/d0015: A man is breaking tiles with his hands
+	Hypo p12/d0053: There is no man breaking wooden boards with his hand
+No CLF file for p03/d0015
+No CLF file for p12/d0053
+Result for 4031: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4054 [ENTAILMENT]
+	Prem p35/d0007: A dog is running breathlessly on the road
+	Hypo p46/d0007: A dog is running on the road
+No CLF file for p35/d0007
+No CLF file for p46/d0007
+Result for 4054: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4060 [NEUTRAL]
+	Prem p15/d0019: A man is running on the road
+	Hypo p35/d0007: A dog is running breathlessly on the road
+No CLF file for p15/d0019
+No CLF file for p35/d0007
+Result for 4060: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4066 [ENTAILMENT]
+	Prem p23/d0045: The man is hurling knives at a tree
+	Hypo p58/d0046: The man is throwing knives at a tree
+No CLF file for p23/d0045
+No CLF file for p58/d0046
+Result for 4066: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4067 [NEUTRAL]
+	Prem p02/d0046: The man is removing knives from a tree
+	Hypo p58/d0046: The man is throwing knives at a tree
+No CLF file for p02/d0046
+No CLF file for p58/d0046
+Result for 4067: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4079 [ENTAILMENT]
+	Prem p58/d0036: One man is riding a horse
+	Hypo p84/d0018: A man is riding a horse
+No CLF file for p58/d0036
+No CLF file for p84/d0018
+Result for 4079: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4086 [CONTRADICTION]
+	Prem p35/d0053: There is no man drawing a picture
+	Hypo p97/d0015: A man is drawing a picture
+No CLF file for p35/d0053
+No CLF file for p97/d0015
+Result for 4086: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4114 [CONTRADICTION]
+	Prem p46/d0053: There is no man eating food
+	Hypo p15/d0016: A man is eating a pizza
+No CLF file for p46/d0053
+No CLF file for p15/d0016
+Result for 4114: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4135 [ENTAILMENT]
+	Prem p53/d0006: A dog is bouncing on a trampoline
+	Hypo p97/d0006: A dog is jumping on a trampoline
+No CLF file for p53/d0006
+No CLF file for p97/d0006
+Result for 4135: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4140 [NEUTRAL]
+	Prem p65/d0037: Several boys are jumping on a trampoline
+	Hypo p90/d0015: A man is doing back flips on a trampoline
+No CLF file for p65/d0037
+No CLF file for p90/d0015
+Result for 4140: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4155 [CONTRADICTION]
+	Prem p04/d0018: A man is playing a wooden flute
+	Hypo p89/d0053: There is no man playing a wooden flute
+No CLF file for p04/d0018
+No CLF file for p89/d0053
+Result for 4155: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4157 [CONTRADICTION]
+	Prem p98/d0053: There is no man playing the piano
+	Hypo p24/d0018: A man is playing the piano
+No CLF file for p98/d0053
+No CLF file for p24/d0018
+Result for 4157: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4164 [NEUTRAL]
+	Prem p07/d0045: The man is erasing the drawing on the board
+	Hypo p78/d0049: The woman is erasing the drawing on the board
+No CLF file for p07/d0045
+No CLF file for p78/d0049
+Result for 4164: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4187 [CONTRADICTION]
+	Prem p31/d0052: There is no dog playing with a toy
+	Hypo p71/d0006: A dog is eating a doll
+No CLF file for p31/d0052
+No CLF file for p71/d0006
+Result for 4187: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4191 [NEUTRAL]
+	Prem p71/d0006: A dog is eating a doll
+	Hypo p21/d0007: A dog is playing with a toy
+No CLF file for p71/d0006
+No CLF file for p21/d0007
+Result for 4191: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4196 [NEUTRAL]
+	Prem p64/d0015: A man is dancing
+	Hypo p42/d0018: A man is praying fervently
+No CLF file for p64/d0015
+No CLF file for p42/d0018
+Result for 4196: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4288 [ENTAILMENT]
+	Prem p50/d0050: The woman is slicing cooked octopus
+	Hypo p47/d0028: A woman is chopping up an octopus
+No CLF file for p50/d0050
+No CLF file for p47/d0028
+Result for 4288: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4321 [CONTRADICTION]
+	Prem p96/d0015: A man is drawing
+	Hypo p34/d0053: There is no man drawing
+No CLF file for p96/d0015
+No CLF file for p34/d0053
+Result for 4321: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4330 [CONTRADICTION]
+	Prem p97/d0044: The man is drawing
+	Hypo p34/d0053: There is no man drawing
+No CLF file for p97/d0044
+No CLF file for p34/d0053
+Result for 4330: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4342 [ENTAILMENT]
+	Prem p11/d0016: A man is eating a banana
+	Hypo p14/d0016: A man is eating a fruit
+No CLF file for p11/d0016
+No CLF file for p14/d0016
+Result for 4342: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4360 [ENTAILMENT]
+	Prem p46/d0015: A man is cutting a note
+	Hypo p47/d0015: A man is cutting a paper
+No CLF file for p46/d0015
+No CLF file for p47/d0015
+Result for 4360: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4376 [NEUTRAL]
+	Prem p90/d0017: A man is playing a guitar
+	Hypo p89/d0054: There is no one playing a piano
+No CLF file for p90/d0017
+No CLF file for p89/d0054
+Result for 4376: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4411 [NEUTRAL]
+	Prem p75/d0059: Two men in a race are flipping the tires of a tractor
+	Hypo p20/d0059: Two men are competing in a tire rolling race
+No CLF file for p75/d0059
+No CLF file for p20/d0059
+Result for 4411: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4429 [NEUTRAL]
+	Prem p14/d0047: The men are talking
+	Hypo p61/d0038: Some old women are talking
+No CLF file for p14/d0047
+No CLF file for p61/d0038
+Result for 4429: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4477 [NEUTRAL]
+	Prem p46/d0018: A man is punching a soccer ball
+	Hypo p13/d0017: A man is mixing the content of a bowl
+No CLF file for p46/d0018
+No CLF file for p13/d0017
+Result for 4477: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4505 [ENTAILMENT]
+	Prem p96/d0041: The doctors are healing a man
+	Hypo p94/d0041: The doctor is helping the patient
+No CLF file for p96/d0041
+No CLF file for p94/d0041
+Result for 4505: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4520 [CONTRADICTION]
+	Prem p83/d0053: There is no man playing a guitar
+	Hypo p90/d0017: A man is playing a guitar
+No CLF file for p83/d0053
+No CLF file for p90/d0017
+Result for 4520: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4614 [CONTRADICTION]
+	Prem p39/d0053: There is no man driving a car
+	Hypo p05/d0016: A man is driving a car
+No CLF file for p39/d0053
+No CLF file for p05/d0016
+Result for 4614: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4638 [NEUTRAL]
+	Prem p89/d0011: A keyboard is being played by a man
+	Hypo p94/d0017: A man is playing a harp
+No CLF file for p89/d0011
+No CLF file for p94/d0017
+Result for 4638: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4650 [CONTRADICTION]
+	Prem p55/d0015: A man is cutting a thick rope with a sword
+	Hypo p22/d0053: There is no man cutting a rope with a sword
+No CLF file for p55/d0015
+No CLF file for p22/d0053
+Result for 4650: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4661 [ENTAILMENT]
+	Prem p87/d0030: A woman is slicing a potato
+	Hypo p76/d0028: A woman is cutting a potato
+No CLF file for p87/d0030
+No CLF file for p76/d0028
+Result for 4661: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4707 [NEUTRAL]
+	Prem p80/d0010: A group of men is playing soccer on the beach
+	Hypo p52/d0010: A group of boys is playing soccer on the beach
+No CLF file for p80/d0010
+No CLF file for p52/d0010
+Result for 4707: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4734 [ENTAILMENT]
+	Prem p36/d0016: A man is fitting a silencer to a pistol
+	Hypo p87/d0014: A man is applying a silencer to a gun
+No CLF file for p36/d0016
+No CLF file for p87/d0014
+Result for 4734: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4755 [NEUTRAL]
+	Prem p90/d0042: The girl is sitting on the couch and is crocheting
+	Hypo p67/d0052: There is no girl playing the violin on a beach
+No CLF file for p90/d0042
+No CLF file for p67/d0052
+Result for 4755: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4767 [CONTRADICTION]
+	Prem p32/d0015: A man is cooking a snake
+	Hypo p15/d0053: There is no man cooking a snake
+No CLF file for p32/d0015
+No CLF file for p15/d0053
+Result for 4767: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4776 [CONTRADICTION]
+	Prem p68/d0051: There is no boy playing guitar
+	Hypo p92/d0002: A boy is playing guitar
+No CLF file for p68/d0051
+No CLF file for p92/d0002
+Result for 4776: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4803 [CONTRADICTION]
+	Prem p80/d0054: There is no monkey teasing a dog at the zoo
+	Hypo p77/d0021: A monkey is teasing a dog at the zoo
+No CLF file for p80/d0054
+No CLF file for p77/d0021
+Result for 4803: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4814 [NEUTRAL]
+	Prem p74/d0021: A monkey is pulling a dog's tail
+	Hypo p77/d0021: A monkey is teasing a dog at the zoo
+No CLF file for p74/d0021
+No CLF file for p77/d0021
+Result for 4814: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4816 [CONTRADICTION]
+	Prem p00/d0055: There is no person cutting some ginger
+	Hypo p56/d0022: A person is cutting some ginger
+No CLF file for p00/d0055
+No CLF file for p56/d0022
+Result for 4816: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4823 [NEUTRAL]
+	Prem p56/d0022: A person is cutting some ginger
+	Hypo p78/d0023: A person is slicing an onion
+No CLF file for p56/d0022
+No CLF file for p78/d0023
+Result for 4823: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4831 [CONTRADICTION]
+	Prem p75/d0019: A man is slicing a potato into pieces
+	Hypo p22/d0017: A man is not cutting a potato
+No CLF file for p75/d0019
+No CLF file for p22/d0017
+Result for 4831: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4843 [CONTRADICTION]
+	Prem p45/d0017: A man is opening a box with a knife
+	Hypo p75/d0053: There is no man opening a box with a knife
+No CLF file for p45/d0017
+No CLF file for p75/d0053
+Result for 4843: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4851 [ENTAILMENT]
+	Prem p43/d0038: Some instruments are being played by a band
+	Hypo p47/d0000: A band is playing some instruments
+No CLF file for p43/d0038
+No CLF file for p47/d0000
+Result for 4851: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4852 [CONTRADICTION]
+	Prem p42/d0000: A band is not playing some instruments
+	Hypo p47/d0000: A band is playing some instruments
+No CLF file for p42/d0000
+No CLF file for p47/d0000
+Result for 4852: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4866 [NEUTRAL]
+	Prem p58/d0022: A person is dancing
+	Hypo p22/d0029: A woman is exercising
+No CLF file for p58/d0022
+No CLF file for p22/d0029
+Result for 4866: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4891 [NEUTRAL]
+	Prem p94/d0015: A man is doing pull-ups
+	Hypo p95/d0044: The man is doing exercises in a gym
+No CLF file for p94/d0015
+No CLF file for p95/d0044
+Result for 4891: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4916 [ENTAILMENT]
+	Prem p37/d0019: A man is singing and playing a guitar
+	Hypo p38/d0019: A man is singing and playing a musical instrument
+No CLF file for p37/d0019
+No CLF file for p38/d0019
+Result for 4916: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4934 [NEUTRAL]
+	Prem p53/d0037: Recruits are talking to an officer
+	Hypo p96/d0033: An officer is talking to the recruits
+No CLF file for p53/d0037
+No CLF file for p96/d0033
+Result for 4934: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-4963 [ENTAILMENT]
+	Prem p28/d0035: Garlic is being chopped by a woman
+	Hypo p45/d0028: A woman is chopping garlic
+No CLF file for p28/d0035
+No CLF file for p45/d0028
+Result for 4963: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-4966 [CONTRADICTION]
+	Prem p83/d0030: A woman is slicing a fish
+	Hypo p16/d0056: There is no woman slicing a fish
+No CLF file for p83/d0030
+No CLF file for p16/d0056
+Result for 4966: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-4983 [ENTAILMENT]
+	Prem p47/d0030: A woman is riding a horse
+	Hypo p71/d0011: A horse is being ridden by a woman
+No CLF file for p47/d0030
+No CLF file for p71/d0011
+Result for 4983: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5003 [ENTAILMENT]
+	Prem p71/d0000: A big cat is opening a plastic drawer with its paws and is jumping inside
+	Hypo p61/d0004: A cat is opening a drawer and jumping inside
+No CLF file for p71/d0000
+No CLF file for p61/d0004
+Result for 5003: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5030 [ENTAILMENT]
+	Prem p56/d0046: The man is talking on the telephone
+	Hypo p36/d0046: The man is speaking on the telephone
+No CLF file for p56/d0046
+No CLF file for p36/d0046
+Result for 5030: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5047 [NEUTRAL]
+	Prem p60/d0015: A man is cutting onions
+	Hypo p81/d0028: A woman is cutting an onion
+No CLF file for p60/d0015
+No CLF file for p81/d0028
+Result for 5047: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5051 [CONTRADICTION]
+	Prem p46/d0017: A man is opening a door
+	Hypo p76/d0053: There is no man opening a door
+No CLF file for p46/d0017
+No CLF file for p76/d0053
+Result for 5051: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-5052 [NEUTRAL]
+	Prem p38/d0008: A door is being opened by a man
+	Hypo p58/d0015: A man is cutting an onion
+No CLF file for p38/d0008
+No CLF file for p58/d0015
+Result for 5052: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5082 [NEUTRAL]
+	Prem p04/d0030: A woman is playing the violin
+	Hypo p98/d0053: There is no man playing the piano
+No CLF file for p04/d0030
+No CLF file for p98/d0053
+Result for 5082: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5110 [ENTAILMENT]
+	Prem p93/d0004: A chef is preparing some food
+	Hypo p92/d0004: A chef is preparing a meal
+No CLF file for p93/d0004
+No CLF file for p92/d0004
+Result for 5110: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5113 [ENTAILMENT]
+	Prem p55/d0060: Two sumo ringers are fighting
+	Hypo p57/d0060: Two sumo wrestlers are fighting
+No CLF file for p55/d0060
+No CLF file for p57/d0060
+Result for 5113: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5119 [NEUTRAL]
+	Prem p55/d0060: Two sumo ringers are fighting
+	Hypo p95/d0018: A man is riding a water toy in the water
+No CLF file for p55/d0060
+No CLF file for p95/d0018
+Result for 5119: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5148 [NEUTRAL]
+	Prem p06/d0015: A man is buttering a piece of bread
+	Hypo p37/d0028: A woman is buttering a piece of bread
+No CLF file for p06/d0015
+No CLF file for p37/d0028
+Result for 5148: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5203 [ENTAILMENT]
+	Prem p39/d0050: The woman is putting pasta into a dish
+	Hypo p03/d0037: Pasta is being put into a dish by a woman
+No CLF file for p39/d0050
+No CLF file for p03/d0037
+Result for 5203: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5206 [NEUTRAL]
+	Prem p16/d0030: A woman is pulling some sticky goo out of a bowl
+	Hypo p08/d0050: The woman is not putting pasta into a dish
+No CLF file for p16/d0030
+No CLF file for p08/d0050
+Result for 5206: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5310 [CONTRADICTION]
+	Prem p65/d0052: There is no girl playing a flute
+	Hypo p81/d0009: A girl is playing a flute
+No CLF file for p65/d0052
+No CLF file for p81/d0009
+Result for 5310: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-5349 [ENTAILMENT]
+	Prem p46/d0012: A large flute is being played by a man
+	Hypo p87/d0017: A man is playing a flute
+No CLF file for p46/d0012
+No CLF file for p87/d0017
+Result for 5349: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5352 [CONTRADICTION]
+	Prem p97/d0017: A man is playing a large flute
+	Hypo p81/d0053: There is no man playing a flute
+No CLF file for p97/d0017
+No CLF file for p81/d0053
+Result for 5352: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-5374 [ENTAILMENT]
+	Prem p94/d0033: An octopus is being sliced by a woman
+	Hypo p91/d0030: A woman is slicing an octopus
+No CLF file for p94/d0033
+No CLF file for p91/d0030
+Result for 5374: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5454 [CONTRADICTION]
+	Prem p87/d0017: A man is playing a flute
+	Hypo p28/d0017: A man is not playing a flute
+No CLF file for p87/d0017
+No CLF file for p28/d0017
+Result for 5454: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-5461 [NEUTRAL]
+	Prem p01/d0030: A woman is playing the flute
+	Hypo p87/d0017: A man is playing a flute
+No CLF file for p01/d0030
+No CLF file for p87/d0017
+Result for 5461: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5498 [ENTAILMENT]
+	Prem p75/d0028: A woman is cutting a lemon
+	Hypo p84/d0028: A woman is cutting fruit
+No CLF file for p75/d0028
+No CLF file for p84/d0028
+Result for 5498: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5540 [NEUTRAL]
+	Prem p85/d0010: A group of people are dancing in a show
+	Hypo p87/d0010: A group of people are marching
+No CLF file for p85/d0010
+No CLF file for p87/d0010
+Result for 5540: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5588 [ENTAILMENT]
+	Prem p09/d0006: A cupcake is being eaten by a girl
+	Hypo p63/d0009: A girl is eating a cupcake
+No CLF file for p09/d0006
+No CLF file for p63/d0009
+Result for 5588: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5657 [NEUTRAL]
+	Prem p75/d0022: A person is eating in a restaurant
+	Hypo p96/d0022: A person is making a bed
+No CLF file for p75/d0022
+No CLF file for p96/d0022
+Result for 5657: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5698 [NEUTRAL]
+	Prem p73/d0041: The cook is sprinkling cheese on the pizza
+	Hypo p38/d0046: The man is sprinkling cheese on the pizza
+No CLF file for p73/d0041
+No CLF file for p38/d0046
+Result for 5698: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5706 [NEUTRAL]
+	Prem p71/d0018: A man is reloading a shotgun
+	Hypo p33/d0016: A man is firing a shotgun
+No CLF file for p71/d0018
+No CLF file for p33/d0016
+Result for 5706: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5745 [NEUTRAL]
+	Prem p79/d0026: A tiger cub is playing with a ball
+	Hypo p16/d0000: A baby is playing with a doll
+No CLF file for p79/d0026
+No CLF file for p16/d0000
+Result for 5745: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5747 [NEUTRAL]
+	Prem p17/d0000: A baby is playing with a toy
+	Hypo p28/d0000: A baby tiger is playing with a ball
+No CLF file for p17/d0000
+No CLF file for p28/d0000
+Result for 5747: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5799 [ENTAILMENT]
+	Prem p17/d0023: A person is peeling a potato
+	Hypo p76/d0024: A potato is being peeled by a person
+No CLF file for p17/d0023
+No CLF file for p76/d0024
+Result for 5799: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5806 [ENTAILMENT]
+	Prem p09/d0019: A man is rowing a canoe
+	Hypo p08/d0019: A man is rowing a boat
+No CLF file for p09/d0019
+No CLF file for p08/d0019
+Result for 5806: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5904 [NEUTRAL]
+	Prem p70/d0013: A man and a woman are driving down the street in a jeep
+	Hypo p69/d0013: A man and a woman are driving down the road in an open-air vehicle
+No CLF file for p70/d0013
+No CLF file for p69/d0013
+Result for 5904: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5909 [NEUTRAL]
+	Prem p13/d0030: A woman is pouring ingredients into a bowl
+	Hypo p54/d0041: The chef is seasoning the oil
+No CLF file for p13/d0030
+No CLF file for p54/d0041
+Result for 5909: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5914 [ENTAILMENT]
+	Prem p70/d0011: A horse is being ridden by a person
+	Hypo p52/d0023: A person is riding a horse
+No CLF file for p70/d0011
+No CLF file for p52/d0023
+Result for 5914: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5920 [NEUTRAL]
+	Prem p70/d0011: A horse is being ridden by a person
+	Hypo p99/d0030: A woman is slicing potatoes
+No CLF file for p70/d0011
+No CLF file for p99/d0030
+Result for 5920: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5924 [CONTRADICTION]
+	Prem p38/d0045: The man is not doing exercises
+	Hypo p94/d0044: The man is doing exercises
+No CLF file for p38/d0045
+No CLF file for p94/d0044
+Result for 5924: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-5930 [NEUTRAL]
+	Prem p38/d0045: The man is not doing exercises
+	Hypo p25/d0059: Two men are fighting
+No CLF file for p38/d0045
+No CLF file for p25/d0059
+Result for 5930: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-5938 [ENTAILMENT]
+	Prem p24/d0061: Vegetables are being put into a pot by a man
+	Hypo p59/d0039: Someone is pouring ingredients into a pot
+No CLF file for p24/d0061
+No CLF file for p59/d0039
+Result for 5938: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-5955 [NEUTRAL]
+	Prem p00/d0007: A dog is leaving a ball in the dirt
+	Hypo p63/d0006: A dog is chasing a ball through dirt
+No CLF file for p00/d0007
+No CLF file for p63/d0006
+Result for 5955: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6001 [NEUTRAL]
+	Prem p77/d0051: There is no brown dog standing in the water
+	Hypo p08/d0008: A dog with golden fur is in the water
+No CLF file for p77/d0051
+No CLF file for p08/d0008
+Result for 6001: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6005 [NEUTRAL]
+	Prem p76/d0032: A young girl in a blue shirt is walking on the sidewalk and holding up a pink sign
+	Hypo p71/d0032: A young girl by a pink sign is holding up a blue shirt and is walking on the sidewalk
+No CLF file for p76/d0032
+No CLF file for p71/d0032
+Result for 6005: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6042 [NEUTRAL]
+	Prem p90/d0048: The small child is walking through the water and is being guided by another person
+	Hypo p52/d0032: A young child is splashing in the water
+No CLF file for p90/d0048
+No CLF file for p52/d0032
+Result for 6042: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6047 [ENTAILMENT]
+	Prem p77/d0013: A man and a woman are in a room painted beige, wearing dark colored shirts and a monitor is in the background
+	Hypo p76/d0013: A man and a woman are in a beige room, wearing dark colored shirts and a monitor is in the background
+No CLF file for p77/d0013
+No CLF file for p76/d0013
+Result for 6047: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6078 [NEUTRAL]
+	Prem p28/d0024: A person wearing jeans is sitting happily on the top of a horse saddle
+	Hypo p10/d0028: A woman in jeans is sitting on the saddle of a horse
+No CLF file for p28/d0024
+No CLF file for p10/d0028
+Result for 6078: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6119 [NEUTRAL]
+	Prem p76/d0003: A brown and white dog is holding a baseball in its mouth
+	Hypo p16/d0001: A black and white dog is dropping a baseball from its mouth
+No CLF file for p76/d0003
+No CLF file for p16/d0001
+Result for 6119: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6131 [NEUTRAL]
+	Prem p38/d0032: A young boy wearing a red swimsuit is jumping into a blue kiddies pool
+	Hypo p53/d0003: A boy wearing red shorts is jumping into a paddling pool
+No CLF file for p38/d0032
+No CLF file for p53/d0003
+Result for 6131: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6146 [CONTRADICTION]
+	Prem p22/d0060: Two people are standing in the ocean and watching the sunset
+	Hypo p11/d0036: Nobody is standing in the ocean and watching the sunset
+No CLF file for p22/d0060
+No CLF file for p11/d0036
+Result for 6146: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-6153 [NEUTRAL]
+	Prem p92/d0024: A race car driver is standing up and pointing his hand at the sky
+	Hypo p90/d0024: A race car driver is sitting down and is motionless
+No CLF file for p92/d0024
+No CLF file for p90/d0024
+Result for 6153: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6158 [NEUTRAL]
+	Prem p91/d0024: A race car driver is standing up and is fiercely pointing his hand at the sky
+	Hypo p70/d0047: The person in the blue jacket is wearing a colorful helmet
+No CLF file for p91/d0024
+No CLF file for p70/d0047
+Result for 6158: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6203 [NEUTRAL]
+	Prem p60/d0000: A bicyclist is holding a bike over his head in a group of people
+	Hypo p13/d0006: A cyclist is being held over the heads of a group of people with the bike
+No CLF file for p60/d0000
+No CLF file for p13/d0006
+Result for 6203: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6213 [NEUTRAL]
+	Prem p56/d0019: A man is sitting on a boat in font of the sunset, near a flag
+	Hypo p23/d0020: A man is standing on a boat in front of the sunset near a flag
+No CLF file for p56/d0019
+No CLF file for p23/d0020
+Result for 6213: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6219 [ENTAILMENT]
+	Prem p23/d0020: A man is standing on a boat in front of the sunset near a flag
+	Hypo p41/d0017: A man is on a boat in front of the sunset
+No CLF file for p23/d0020
+No CLF file for p41/d0017
+Result for 6219: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6228 [NEUTRAL]
+	Prem p41/d0037: People at a drag race are running away from the flames that are coming out of the cars
+	Hypo p84/d0041: The crowd is watching two racing cars that are leaving the starting line
+No CLF file for p41/d0037
+No CLF file for p84/d0041
+Result for 6228: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6231 [NEUTRAL]
+	Prem p43/d0058: Two dogs are playing together on the grass
+	Hypo p47/d0058: Two dogs are resting together in the grass
+No CLF file for p43/d0058
+No CLF file for p47/d0058
+Result for 6231: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6280 [ENTAILMENT]
+	Prem p22/d0008: A dog, which is black, is running in the grass
+	Hypo p67/d0001: A black dog is running in the grass
+No CLF file for p22/d0008
+No CLF file for p67/d0001
+Result for 6280: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6287 [ENTAILMENT]
+	Prem p68/d0001: A black dog is running in the grass and its tongue is hanging out
+	Hypo p67/d0001: A black dog is running in the grass
+No CLF file for p68/d0001
+No CLF file for p67/d0001
+Result for 6287: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6315 [ENTAILMENT]
+	Prem p05/d0032: A yellow dog is running on white snow on a very sunny day
+	Hypo p04/d0032: A yellow dog is running on white snow on a sunny day
+No CLF file for p05/d0032
+No CLF file for p04/d0032
+Result for 6315: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6330 [NEUTRAL]
+	Prem p12/d0010: A girl is wearing jeans and a pink shirt and is running
+	Hypo p92/d0012: A little boy in a pink shirt is running under a tree in the desert
+No CLF file for p12/d0010
+No CLF file for p92/d0012
+Result for 6330: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6344 [NEUTRAL]
+	Prem p54/d0027: A white dog is wearing a Christmas reindeer headband and is playing with a brown dog in the grass
+	Hypo p41/d0049: The white reindeer wearing dog ears is near a brown reindeer
+No CLF file for p54/d0027
+No CLF file for p41/d0049
+Result for 6344: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6358 [CONTRADICTION]
+	Prem p49/d0049: The woman in a red costume is leaning against a brick wall and playing an instrument
+	Hypo p51/d0049: The woman in a red costume is not leaning against a brick wall and is not playing an instrument
+No CLF file for p49/d0049
+No CLF file for p51/d0049
+Result for 6358: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-6394 [NEUTRAL]
+	Prem p26/d0027: A waterfall is flowing into a shallow pool
+	Hypo p65/d0047: The people are walking on the road beside a beautiful waterfall
+No CLF file for p26/d0027
+No CLF file for p65/d0047
+Result for 6394: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6396 [NEUTRAL]
+	Prem p60/d0007: A dog is scattering a pack of white sheep on a dusty farm
+	Hypo p82/d0006: A dog is herding a pack of white sheep on a dusty farm
+No CLF file for p60/d0007
+No CLF file for p82/d0006
+Result for 6396: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6450 [NEUTRAL]
+	Prem p11/d0013: A little boy is wearing a yellow tank top and is laughing
+	Hypo p67/d0012: A laughing boy is in a yellow tank and is wearing a top
+No CLF file for p11/d0013
+No CLF file for p67/d0012
+Result for 6450: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6482 [NEUTRAL]
+	Prem p89/d0047: The person is not standing on white ice
+	Hypo p88/d0023: A person is standing in a vast field of glacial ice
+No CLF file for p89/d0047
+No CLF file for p88/d0023
+Result for 6482: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6544 [CONTRADICTION]
+	Prem p47/d0043: The ice hockey goalkeeper is wearing a yellow jersey and is defending the goal
+	Hypo p81/d0052: There is no hockey player in a yellow jersey guarding the goal
+No CLF file for p47/d0043
+No CLF file for p81/d0052
+Result for 6544: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-6568 [NEUTRAL]
+	Prem p60/d0031: A woman is wearing a blue helmet and is riding a bicycle in a parking lot
+	Hypo p73/d0029: A woman is parking a blue bicycle and is wearing lots of riding helmets
+No CLF file for p60/d0031
+No CLF file for p73/d0029
+Result for 6568: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6590 [NEUTRAL]
+	Prem p93/d0032: A young girl is standing on one leg
+	Hypo p69/d0032: A young female is dancing
+No CLF file for p93/d0032
+No CLF file for p69/d0032
+Result for 6590: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6592 [NEUTRAL]
+	Prem p93/d0032: A young girl is standing on one leg
+	Hypo p82/d0032: A young girl is dancing
+No CLF file for p93/d0032
+No CLF file for p82/d0032
+Result for 6592: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6598 [NEUTRAL]
+	Prem p56/d0000: A bee is clinging to a yellow flower
+	Hypo p34/d0055: There is no small bee landing on a bunch of yellow flowers
+No CLF file for p56/d0000
+No CLF file for p34/d0055
+Result for 6598: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6625 [NEUTRAL]
+	Prem p61/d0055: There is no white dog with beige spots running through a field
+	Hypo p59/d0026: A tan dog is running through the brush
+No CLF file for p61/d0055
+No CLF file for p59/d0026
+Result for 6625: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6634 [ENTAILMENT]
+	Prem p83/d0011: A hurdle is being leapt by a horse that has a rider on its back
+	Hypo p64/d0011: A horse and its rider are leaping over a barrier
+No CLF file for p83/d0011
+No CLF file for p64/d0011
+Result for 6634: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6649 [ENTAILMENT]
+	Prem p64/d0060: Two teenage girls are wearing fancy dresses at an event
+	Hypo p79/d0058: Two girls in their teens are wearing fancy dresses at an event
+No CLF file for p64/d0060
+No CLF file for p79/d0058
+Result for 6649: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6673 [NEUTRAL]
+	Prem p57/d0005: A classroom full of students is looking attentively in the same direction inside a bamboo structure
+	Hypo p25/d0011: A group of students in uniforms is listening attentively at the front of the class
+No CLF file for p57/d0005
+No CLF file for p25/d0011
+Result for 6673: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6705 [ENTAILMENT]
+	Prem p44/d0005: A child, who is small, is outdoors climbing steps outdoors in an area full of grass
+	Hypo p82/d0025: A small child is outdoors climbing steps in a grassy area
+No CLF file for p44/d0005
+No CLF file for p82/d0025
+Result for 6705: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6709 [NEUTRAL]
+	Prem p20/d0013: A little child in a pink sweater is climbing a concrete staircase
+	Hypo p82/d0025: A small child is outdoors climbing steps in a grassy area
+No CLF file for p20/d0013
+No CLF file for p82/d0025
+Result for 6709: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6729 [NEUTRAL]
+	Prem p92/d0011: A kid in orange is playing outside with a snowball
+	Hypo p10/d0026: A snow ball is being made by a child
+No CLF file for p92/d0011
+No CLF file for p10/d0026
+Result for 6729: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6740 [NEUTRAL]
+	Prem p57/d0047: The people are not sitting on a bench in front of a restaurant
+	Hypo p09/d0057: Three people are sitting on a bench under some palm trees
+No CLF file for p57/d0047
+No CLF file for p09/d0057
+Result for 6740: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6756 [ENTAILMENT]
+	Prem p36/d0012: A large brown dog and a small grey dog are standing on a rocky surface
+	Hypo p69/d0000: A big brown dog and a small grey dog are standing on a rocky surface
+No CLF file for p36/d0012
+No CLF file for p69/d0000
+Result for 6756: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6764 [NEUTRAL]
+	Prem p60/d0056: Three boys are resting on rocks along a river
+	Hypo p62/d0056: Three boys are walking on rocks along a river
+No CLF file for p60/d0056
+No CLF file for p62/d0056
+Result for 6764: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6784 [CONTRADICTION]
+	Prem p37/d0053: There is no man dressed in black wearing an elaborate black mask
+	Hypo p19/d0014: A man dressed in black is wearing an elaborate black mask
+No CLF file for p37/d0053
+No CLF file for p19/d0014
+Result for 6784: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-6849 [NEUTRAL]
+	Prem p08/d0058: Two children, who are small, are playing with a toy car in the street
+	Hypo p56/d0008: A father is pushing his daughter on a go-kart and another girl is watching
+No CLF file for p08/d0058
+No CLF file for p56/d0008
+Result for 6849: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6866 [NEUTRAL]
+	Prem p27/d0010: A golden dog is running through a field of tall grass
+	Hypo p76/d0051: There is no brown dog running through tall green grass
+No CLF file for p27/d0010
+No CLF file for p76/d0051
+Result for 6866: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6912 [NEUTRAL]
+	Prem p78/d0050: The woman wearing the blue and white uniform with a white and blue hat is keeping her mouth open and is near others who are dressed in the same fashion
+	Hypo p62/d0031: A woman is wearing a blue shirt with a white vest and a white cap and is talking and marching
+No CLF file for p78/d0050
+No CLF file for p62/d0031
+Result for 6912: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6932 [ENTAILMENT]
+	Prem p94/d0048: The snowboarder is doing a flip over a mound of snow
+	Hypo p11/d0039: Somebody is jumping in the air on a board
+No CLF file for p94/d0048
+No CLF file for p11/d0039
+Result for 6932: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-6955 [NEUTRAL]
+	Prem p10/d0002: A blonde boy in green is sitting on a swing
+	Hypo p07/d0053: There is no little girl with blond hair smiling and sitting on a swing
+No CLF file for p10/d0002
+No CLF file for p07/d0053
+Result for 6955: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6961 [NEUTRAL]
+	Prem p63/d0027: A white man is staging a hat and a playing guitar
+	Hypo p72/d0014: A man in a white hat is playing guitar on stage
+No CLF file for p63/d0027
+No CLF file for p72/d0014
+Result for 6961: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-6971 [CONTRADICTION]
+	Prem p62/d0053: There is no man in a red uniform making a jump in a dirt bike race
+	Hypo p61/d0014: A man in a red uniform is making a jump in a dirt bike race
+No CLF file for p62/d0053
+No CLF file for p61/d0014
+Result for 6971: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-7002 [NEUTRAL]
+	Prem p58/d0037: Rugby players are not tackling each other
+	Hypo p22/d0026: A soccer player is being tackled by his opponent
+No CLF file for p58/d0037
+No CLF file for p22/d0026
+Result for 7002: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7007 [NEUTRAL]
+	Prem p52/d0027: A white dog is standing on fallen leaves
+	Hypo p46/d0027: A white dog is lying on fallen leaves
+No CLF file for p52/d0027
+No CLF file for p46/d0027
+Result for 7007: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7018 [ENTAILMENT]
+	Prem p99/d0004: A child in clothing which is light colored is standing with his arms extended outward
+	Hypo p01/d0005: A child in light colored clothing is standing with his arms extended outward
+No CLF file for p99/d0004
+No CLF file for p01/d0005
+Result for 7018: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7027 [NEUTRAL]
+	Prem p59/d0040: The boy and girl are not playing on a playground
+	Hypo p60/d0040: The boy and girl are playing on the outdoor gym
+No CLF file for p59/d0040
+No CLF file for p60/d0040
+Result for 7027: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7043 [NEUTRAL]
+	Prem p28/d0047: The motocross rider is standing naked
+	Hypo p98/d0000: A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching
+No CLF file for p28/d0047
+No CLF file for p98/d0000
+Result for 7043: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7044 [NEUTRAL]
+	Prem p68/d0048: The rider on the blue and black motocross bike is not wearing the pants
+	Hypo p98/d0000: A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching
+No CLF file for p68/d0048
+No CLF file for p98/d0000
+Result for 7044: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7064 [ENTAILMENT]
+	Prem p17/d0027: A trick is being performed by a rollerblader on a ramp
+	Hypo p17/d0025: A rollerblader is performing a trick on a ramp
+No CLF file for p17/d0027
+No CLF file for p17/d0025
+Result for 7064: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7088 [NEUTRAL]
+	Prem p72/d0010: A group of football players is standing still in the field
+	Hypo p81/d0041: The crowd is watching a football game
+No CLF file for p72/d0010
+No CLF file for p81/d0041
+Result for 7088: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7093 [ENTAILMENT]
+	Prem p25/d0043: The group of people is standing together and looking at the camera
+	Hypo p13/d0011: A group of people is standing together and looking at the camera
+No CLF file for p25/d0043
+No CLF file for p13/d0011
+Result for 7093: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7214 [CONTRADICTION]
+	Prem p13/d0004: A brown dog is running across the yard with a toy in its mouth
+	Hypo p75/d0051: There is no brown dog running across the yard with a toy in its mouth
+No CLF file for p13/d0004
+No CLF file for p75/d0051
+Result for 7214: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-7228 [NEUTRAL]
+	Prem p38/d0056: There is no young boy jumping in the air with his knees bent and arms spread
+	Hypo p36/d0024: A person with a green shirt is jumping high over the grass
+No CLF file for p38/d0056
+No CLF file for p36/d0024
+Result for 7228: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7311 [ENTAILMENT]
+	Prem p56/d0005: A cigarette is being smoked by the man in the straw hat
+	Hypo p95/d0020: A man is wearing a straw hat and smoking a cigarette
+No CLF file for p56/d0005
+No CLF file for p95/d0020
+Result for 7311: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7319 [NEUTRAL]
+	Prem p83/d0020: A man is wearing a blue shirt which has long sleeves and jeans and is riding a unicycle down a street
+	Hypo p81/d0020: A man is wearing a blue checkered shirt and riding a unicycle in the street
+No CLF file for p83/d0020
+No CLF file for p81/d0020
+Result for 7319: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7356 [NEUTRAL]
+	Prem p94/d0037: Small children are climbing a statue in a park
+	Hypo p99/d0057: Two children are playing on a statue
+No CLF file for p94/d0037
+No CLF file for p99/d0057
+Result for 7356: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7363 [NEUTRAL]
+	Prem p08/d0027: A tower is being looked at by a blonde lady
+	Hypo p43/d0029: A woman is looking at the view of a city
+No CLF file for p08/d0027
+No CLF file for p43/d0029
+Result for 7363: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7374 [NEUTRAL]
+	Prem p31/d0020: A man is standing on the top of the rocks with clouds behind them
+	Hypo p17/d0039: Somebody is standing on a mountain top
+No CLF file for p31/d0020
+No CLF file for p17/d0039
+Result for 7374: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7394 [NEUTRAL]
+	Prem p24/d0005: A child is smiling at the camera and swimming underwater
+	Hypo p30/d0005: A child is swimming underwater in a pool
+No CLF file for p24/d0005
+No CLF file for p30/d0005
+Result for 7394: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7410 [NEUTRAL]
+	Prem p39/d0033: An American footballer is wearing the red and white strip
+	Hypo p09/d0009: A football player is wearing black armbands
+No CLF file for p39/d0033
+No CLF file for p09/d0009
+Result for 7410: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7445 [ENTAILMENT]
+	Prem p17/d0044: The little girl is swinging and the woman is standing behind her
+	Hypo p09/d0043: The girl, who is little, is swinging and the woman is standing behind
+No CLF file for p17/d0044
+No CLF file for p09/d0043
+Result for 7445: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7448 [NEUTRAL]
+	Prem p85/d0025: A small child is showing excitement on a swing set at the park
+	Hypo p09/d0043: The girl, who is little, is swinging and the woman is standing behind
+No CLF file for p85/d0025
+No CLF file for p09/d0043
+Result for 7448: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7464 [NEUTRAL]
+	Prem p49/d0026: A surfer is riding the wave
+	Hypo p29/d0016: A man is falling off a surfboard in the water
+No CLF file for p49/d0026
+No CLF file for p29/d0016
+Result for 7464: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7466 [ENTAILMENT]
+	Prem p20/d0043: The group of people is sitting in a dim room
+	Hypo p21/d0043: The group of people is sitting in a room which is dim
+No CLF file for p20/d0043
+No CLF file for p21/d0043
+Result for 7466: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7471 [ENTAILMENT]
+	Prem p08/d0014: A man and two women in a dark room are sitting at a table with candles
+	Hypo p20/d0043: The group of people is sitting in a dim room
+No CLF file for p08/d0014
+No CLF file for p20/d0043
+Result for 7471: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7475 [NEUTRAL]
+	Prem p09/d0014: A man and two women in a darkened room are sitting at a table with candles
+	Hypo p16/d0043: The group of dim people is sitting in a room
+No CLF file for p09/d0014
+No CLF file for p16/d0043
+Result for 7475: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7477 [ENTAILMENT]
+	Prem p75/d0014: A man in a white shirt and sunglasses and a man in a black shirt and sunglasses are sitting at a table with four bottles of beer
+	Hypo p74/d0014: A man in a white shirt and sunglasses and a man in a black shirt and sunglasses are sitting at a table with four beer bottles
+No CLF file for p75/d0014
+No CLF file for p74/d0014
+Result for 7477: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7501 [NEUTRAL]
+	Prem p16/d0050: The woman is not wearing a red jacket and is not holding a glass in front of the man in a white t-shirt
+	Hypo p09/d0024: A person is wearing a red jacket and holding a beer
+No CLF file for p16/d0050
+No CLF file for p09/d0024
+Result for 7501: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7533 [NEUTRAL]
+	Prem p36/d0005: A child is watching someone playing outdoors and is spouting water over the rest of his family
+	Hypo p67/d0002: A boy is holding a hose next to a man and another boy is watching
+No CLF file for p36/d0005
+No CLF file for p67/d0002
+Result for 7533: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7541 [NEUTRAL]
+	Prem p54/d0052: There is no football player in a purple jersey running with the ball for a touchdown
+	Hypo p07/d0009: A football player is running past an official carrying a football
+No CLF file for p54/d0052
+No CLF file for p07/d0009
+Result for 7541: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7544 [NEUTRAL]
+	Prem p04/d0009: A football player is carrying an official past a rolling football
+	Hypo p01/d0009: A football player in a purple jersey is running with the ball for a touchdown
+No CLF file for p04/d0009
+No CLF file for p01/d0009
+Result for 7544: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7546 [ENTAILMENT]
+	Prem p74/d0032: A young girl in a blue leotard is jumping in the air
+	Hypo p78/d0032: A young girl in a leotard colored in blue is jumping in the air
+No CLF file for p74/d0032
+No CLF file for p78/d0032
+Result for 7546: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7548 [ENTAILMENT]
+	Prem p06/d0051: The young girl in blue is jumping in the air
+	Hypo p80/d0032: A young girl in blue is jumping in the air
+No CLF file for p06/d0051
+No CLF file for p80/d0032
+Result for 7548: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7582 [ENTAILMENT]
+	Prem p22/d0041: The bunch of men are playing rugby on a field full of mud
+	Hypo p52/d0038: Some men are playing rugby
+No CLF file for p22/d0041
+No CLF file for p52/d0038
+Result for 7582: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7590 [NEUTRAL]
+	Prem p92/d0022: A person is looking at a bike designed for motocross that is lying on its side and another is racing by
+	Hypo p23/d0040: The bike rider is looking at an accident of another bike rider
+No CLF file for p92/d0022
+No CLF file for p23/d0040
+Result for 7590: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7649 [CONTRADICTION]
+	Prem p02/d0053: There is no little boy wearing a green soccer strip and running on the grass
+	Hypo p10/d0013: A little boy is wearing a green soccer strip and is running on the grass
+No CLF file for p02/d0053
+No CLF file for p10/d0013
+Result for 7649: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-7667 [CONTRADICTION]
+	Prem p35/d0044: The man at the beach is not doing a handstand on the wet sand at the edge of the water
+	Hypo p88/d0044: The man is doing a handstand on the wet sand at the edge of the water at the beach
+No CLF file for p35/d0044
+No CLF file for p88/d0044
+Result for 7667: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-7677 [ENTAILMENT]
+	Prem p20/d0033: A young mother is playing with her boy in the park
+	Hypo p30/d0032: A young boy is playing in the park with his mother
+No CLF file for p20/d0033
+No CLF file for p30/d0032
+Result for 7677: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7718 [CONTRADICTION]
+	Prem p99/d0019: A man is spraying a super soaker into the mouth of a dog
+	Hypo p47/d0054: There is no man spraying a super soaker into the mouth of a dog
+No CLF file for p99/d0019
+No CLF file for p47/d0054
+Result for 7718: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-7720 [NEUTRAL]
+	Prem p47/d0054: There is no man spraying a super soaker into the mouth of a dog
+	Hypo p07/d0020: A man is squirting water into the mouth of a white dog with a squirt gun
+No CLF file for p47/d0054
+No CLF file for p07/d0020
+Result for 7720: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7726 [NEUTRAL]
+	Prem p49/d0003: A boy under an umbrella is being held by his father who is wearing a blue coat
+	Hypo p55/d0003: A boy, who is wearing a blue coat, is being held by his father under an umbrella
+No CLF file for p49/d0003
+No CLF file for p55/d0003
+Result for 7726: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7734 [NEUTRAL]
+	Prem p49/d0003: A boy under an umbrella is being held by his father who is wearing a blue coat
+	Hypo p04/d0005: A child is experiencing a new world
+No CLF file for p49/d0003
+No CLF file for p04/d0005
+Result for 7734: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7743 [NEUTRAL]
+	Prem p16/d0007: A dog is playing alone on a beach covered by snow
+	Hypo p79/d0007: A dog is walking along a snowdrift
+No CLF file for p16/d0007
+No CLF file for p79/d0007
+Result for 7743: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7772 [CONTRADICTION]
+	Prem p48/d0026: A surfer is riding a big wave across dark green water
+	Hypo p17/d0049: The surfer is riding a small wave
+No CLF file for p48/d0026
+No CLF file for p17/d0049
+Result for 7772: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-7795 [ENTAILMENT]
+	Prem p74/d0026: A tennis player is lunging to the left
+	Hypo p73/d0026: A tennis player is jumping to the left
+No CLF file for p74/d0026
+No CLF file for p73/d0026
+Result for 7795: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7820 [NEUTRAL]
+	Prem p30/d0058: Two dogs are looking at something that is splashing in the water
+	Hypo p25/d0038: Some dogs are not playing in a stream
+No CLF file for p30/d0058
+No CLF file for p25/d0038
+Result for 7820: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7877 [NEUTRAL]
+	Prem p33/d0014: A man in a blue cowboy hat is riding a white horse
+	Hypo p78/d0014: A man in blue is riding a horse on a dirt road
+No CLF file for p33/d0014
+No CLF file for p78/d0014
+Result for 7877: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7889 [ENTAILMENT]
+	Prem p77/d0060: Two white dogs are playing with a brown dog and a tennis ball
+	Hypo p76/d0060: Two white dogs are playing with a brown dog and a ball
+No CLF file for p77/d0060
+No CLF file for p76/d0060
+Result for 7889: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-7932 [NEUTRAL]
+	Prem p28/d0022: A person in a pink jacket is running onto the field
+	Hypo p98/d0034: Four athletes are with a woman in a crowded stadium
+No CLF file for p28/d0022
+No CLF file for p98/d0034
+Result for 7932: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7937 [NEUTRAL]
+	Prem p82/d0027: A woman dressed in elegant clothing is inside a crowd of people and is looking up
+	Hypo p81/d0027: A woman dressed in elegant clothing is inside a crowd of people and is looking down
+No CLF file for p82/d0027
+No CLF file for p81/d0027
+Result for 7937: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7938 [NEUTRAL]
+	Prem p46/d0033: An Asian woman is holding a fur scarf
+	Hypo p85/d0033: An elegant woman is inside a crowd of people and is looking down
+No CLF file for p46/d0033
+No CLF file for p85/d0033
+Result for 7938: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7947 [NEUTRAL]
+	Prem p91/d0011: A kid in a white t-shirt is splashing in shallow water
+	Hypo p02/d0003: A boy is running through the water at the beach
+No CLF file for p91/d0011
+No CLF file for p02/d0003
+Result for 7947: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7950 [NEUTRAL]
+	Prem p91/d0009: A girl is running through the water at the beach
+	Hypo p44/d0002: A boy in a white t-shirt is splashing in shallow water
+No CLF file for p91/d0009
+No CLF file for p44/d0002
+Result for 7950: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7951 [NEUTRAL]
+	Prem p44/d0002: A boy in a white t-shirt is splashing in shallow water
+	Hypo p02/d0003: A boy is running through the water at the beach
+No CLF file for p44/d0002
+No CLF file for p02/d0003
+Result for 7951: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-7997 [NEUTRAL]
+	Prem p60/d0043: The kids are not wearing suits and water is splashing around
+	Hypo p52/d0034: Children in swimming suits are playing in the water
+No CLF file for p60/d0043
+No CLF file for p52/d0034
+Result for 7997: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8057 [ENTAILMENT]
+	Prem p96/d0032: A young girl is wearing a blue patterned swim suit, a black and yellow swim cap and has blue swimming goggles on her head
+	Hypo p50/d0013: A little girl is wearing a blue patterned swim suit, a black and yellow swim cap and has blue swimming goggles on the head
+No CLF file for p96/d0032
+No CLF file for p50/d0013
+Result for 8057: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8122 [NEUTRAL]
+	Prem p61/d0008: A female cheerleader is sitting on the knee of a male cheerleader
+	Hypo p13/d0038: Some cheerleaders are relaxing
+No CLF file for p61/d0008
+No CLF file for p13/d0038
+Result for 8122: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8138 [ENTAILMENT]
+	Prem p64/d0042: The girl has red hair and eyebrows, several piercings in a ear and a drawing on the back
+	Hypo p65/d0042: The girl has red hair and eyebrows, several piercings in a ear and a tattoo on the back
+No CLF file for p64/d0042
+No CLF file for p65/d0042
+Result for 8138: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8141 [NEUTRAL]
+	Prem p66/d0042: The girl has red hair and eyebrows, several piercings in a ear and no tattoo on the back
+	Hypo p21/d0010: A girl with red hair and red eyebrows is in midspeech
+No CLF file for p66/d0042
+No CLF file for p21/d0010
+Result for 8141: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8163 [ENTAILMENT]
+	Prem p92/d0059: Two people are driving a jeep and a lady is sitting on the top of it
+	Hypo p91/d0059: Two people are driving a jeep and a girl is sitting on the top of it
+No CLF file for p92/d0059
+No CLF file for p91/d0059
+Result for 8163: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8193 [CONTRADICTION]
+	Prem p96/d0039: The adults and children are not gathered near an outdoor seating arrangement
+	Hypo p94/d0039: The adults and children are being gathered near an outdoor seating arrangement
+No CLF file for p96/d0039
+No CLF file for p94/d0039
+Result for 8193: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-8212 [NEUTRAL]
+	Prem p24/d0009: A girl has colored patches on the cheeks
+	Hypo p00/d0010: A girl is standing in a group and is wearing a black shirt and pink beads
+No CLF file for p24/d0009
+No CLF file for p00/d0010
+Result for 8212: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8220 [NEUTRAL]
+	Prem p58/d0058: Two dogs are running through water
+	Hypo p55/d0058: Two dogs are running through high grass
+No CLF file for p58/d0058
+No CLF file for p55/d0058
+Result for 8220: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8263 [CONTRADICTION]
+	Prem p66/d0038: Some people and vehicles are on a crowded street
+	Hypo p65/d0038: Some people and vehicles are on a almost empty street
+No CLF file for p66/d0038
+No CLF file for p65/d0038
+Result for 8263: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-8313 [NEUTRAL]
+	Prem p99/d0032: A young girl with painted face is standing next to some other children
+	Hypo p42/d0034: Children are being dressed in costumes and playing a game
+No CLF file for p99/d0032
+No CLF file for p42/d0034
+Result for 8313: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8326 [CONTRADICTION]
+	Prem p57/d0051: There is no bmx biker jumping dirt ramps in front of a body of water
+	Hypo p46/d0057: Two bmx bikers are jumping dirt ramps in front of a body of water
+No CLF file for p57/d0051
+No CLF file for p46/d0057
+Result for 8326: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-8334 [ENTAILMENT]
+	Prem p89/d0015: A man is doing a trick on a skateboard
+	Hypo p64/d0022: A person is doing a trick on a skateboard
+No CLF file for p89/d0015
+No CLF file for p64/d0022
+Result for 8334: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8343 [ENTAILMENT]
+	Prem p48/d0014: A man in a motocross uniform is wearing a helmet and rides a red motorcycle
+	Hypo p25/d0022: A person in a motocross uniform is wearing a helmet and rides a red motorcycle
+No CLF file for p48/d0014
+No CLF file for p25/d0022
+Result for 8343: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8362 [NEUTRAL]
+	Prem p39/d0002: A boy in a striped shirt is jumping behind a water fountain
+	Hypo p40/d0002: A boy in a striped shirt is jumping in front of a water fountain
+No CLF file for p39/d0002
+No CLF file for p40/d0002
+Result for 8362: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8375 [NEUTRAL]
+	Prem p02/d0059: Two large dogs, a light colored one and a dark one, are sleeping on a snowy terrain
+	Hypo p28/d0058: Two dogs are leaping through snowy grass and rocks
+No CLF file for p02/d0059
+No CLF file for p28/d0058
+Result for 8375: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8383 [ENTAILMENT]
+	Prem p44/d0009: A girl in blue is sliding down a green slide
+	Hypo p03/d0051: The young girl in blue is enjoying a slide
+No CLF file for p44/d0009
+No CLF file for p03/d0051
+Result for 8383: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8389 [NEUTRAL]
+	Prem p65/d0027: A white man is walking next to a building in a big city
+	Hypo p86/d0001: A black man is walking next to a building in a big city
+No CLF file for p65/d0027
+No CLF file for p86/d0001
+Result for 8389: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8461 [NEUTRAL]
+	Prem p45/d0021: A man with no hat is sitting on the ground
+	Hypo p29/d0021: A man with a backwards hat is sitting on the ground
+No CLF file for p45/d0021
+No CLF file for p29/d0021
+Result for 8461: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8471 [ENTAILMENT]
+	Prem p48/d0009: A girl in blue sweater is holding a multicolor toy and is sitting on the shoulders of an old man with grey hair
+	Hypo p46/d0009: A girl in blue sweater is holding a multicolor toy and is sitting on the shoulders of a man with grey hair
+No CLF file for p48/d0009
+No CLF file for p46/d0009
+Result for 8471: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8500 [NEUTRAL]
+	Prem p17/d0045: The man is going into the water
+	Hypo p80/d0047: The person is going into the sea
+No CLF file for p17/d0045
+No CLF file for p80/d0047
+Result for 8500: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8505 [NEUTRAL]
+	Prem p18/d0060: Two people are sitting on a park bench on a sunny day
+	Hypo p16/d0060: Two people are sitting on a park bench on a hot day
+No CLF file for p18/d0060
+No CLF file for p16/d0060
+Result for 8505: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8548 [NEUTRAL]
+	Prem p60/d0041: The child is splashing water in a big red pool
+	Hypo p91/d0026: A toddler is making a splash inside a blue paddling pool
+No CLF file for p60/d0041
+No CLF file for p91/d0026
+Result for 8548: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8558 [NEUTRAL]
+	Prem p41/d0010: A grey silky dog is lying in the grass and a brown dog is looking on
+	Hypo p14/d0041: The brown dog is spotting a black dog lying in the dry grass
+No CLF file for p41/d0010
+No CLF file for p14/d0041
+Result for 8558: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8576 [ENTAILMENT]
+	Prem p40/d0001: A black dog and a small white and black dog are looking up at a kitchen countertop
+	Hypo p40/d0012: A large dog and a small dog are standing next to the kitchen counter and are investigating
+No CLF file for p40/d0001
+No CLF file for p40/d0012
+Result for 8576: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8632 [CONTRADICTION]
+	Prem p37/d0017: A man is not rock climbing and a city and a bay are in the background
+	Hypo p05/d0019: A man is rock climbing and a city and a bay are in the background
+No CLF file for p37/d0017
+No CLF file for p05/d0019
+Result for 8632: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-8633 [ENTAILMENT]
+	Prem p06/d0019: A man is rock climbing, pausing and calculating the route
+	Hypo p07/d0019: A man is rock climbing, stopping and calculating the route
+No CLF file for p06/d0019
+No CLF file for p07/d0019
+Result for 8633: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8658 [NEUTRAL]
+	Prem p64/d0035: No group of people is gathering at a stand at the fair
+	Hypo p63/d0047: The people are standing at a carnival
+No CLF file for p64/d0035
+No CLF file for p63/d0047
+Result for 8658: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8660 [ENTAILMENT]
+	Prem p20/d0011: A group of rollerbladers is lining up on the street
+	Hypo p19/d0011: A group of rollerbladers is lining up on the road
+No CLF file for p20/d0011
+No CLF file for p19/d0011
+Result for 8660: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8678 [ENTAILMENT]
+	Prem p54/d0025: A skateboarder is jumping off a ramp
+	Hypo p55/d0025: A skateboarder is making a jump off a ramp
+No CLF file for p54/d0025
+No CLF file for p55/d0025
+Result for 8678: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8700 [NEUTRAL]
+	Prem p10/d0001: A black and orange bird is standing in the grass
+	Hypo p37/d0040: The black bird with a yellow beak is standing in the green grass
+No CLF file for p10/d0001
+No CLF file for p37/d0040
+Result for 8700: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8714 [ENTAILMENT]
+	Prem p78/d0060: Two white dogs are quickly running together
+	Hypo p80/d0060: Two white dogs are running together
+No CLF file for p78/d0060
+No CLF file for p80/d0060
+Result for 8714: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8727 [ENTAILMENT]
+	Prem p93/d0010: A group of people are standing around a sound mixing table
+	Hypo p79/d0038: Some people is looking at sound equipment
+No CLF file for p93/d0010
+No CLF file for p79/d0038
+Result for 8727: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8786 [ENTAILMENT]
+	Prem p96/d0009: A girl is skipping rope on a sidewalk
+	Hypo p97/d0009: A girl is skipping rope on near a street
+No CLF file for p96/d0009
+No CLF file for p97/d0009
+Result for 8786: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8792 [NEUTRAL]
+	Prem p73/d0009: A girl is jumping rope on a sidewalk near a parking garage
+	Hypo p97/d0009: A girl is skipping rope on near a street
+No CLF file for p73/d0009
+No CLF file for p97/d0009
+Result for 8792: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8806 [ENTAILMENT]
+	Prem p74/d0007: A dog is swimming in a body of water
+	Hypo p75/d0033: An animal is swimming in a body of water
+No CLF file for p74/d0007
+No CLF file for p75/d0033
+Result for 8806: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-8832 [NEUTRAL]
+	Prem p42/d0029: A woman is leaning on the ledge of a balcony
+	Hypo p96/d0016: A man is leaning on the ledge of a balcony
+No CLF file for p42/d0029
+No CLF file for p96/d0016
+Result for 8832: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8841 [NEUTRAL]
+	Prem p04/d0026: A small white dog is running across a lawn
+	Hypo p83/d0000: A big white dog is running across a lawn
+No CLF file for p04/d0026
+No CLF file for p83/d0000
+Result for 8841: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8855 [NEUTRAL]
+	Prem p22/d0042: The dog is on a leash and is walking near the water
+	Hypo p76/d0001: A black dog on a leash is walking in the water
+No CLF file for p22/d0042
+No CLF file for p76/d0001
+Result for 8855: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8938 [NEUTRAL]
+	Prem p25/d0036: One boy in orange shorts is standing on a rock cliff over the water and the other boy in black shorts is jumping of it into the water
+	Hypo p12/d0059: Two males are standing on a cliff edge and one is jumping into the water
+No CLF file for p25/d0036
+No CLF file for p12/d0059
+Result for 8938: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8963 [NEUTRAL]
+	Prem p93/d0025: A small group of people are standing and two are sitting on the sofa
+	Hypo p70/d0010: A group of five young adults are lounging indoors
+No CLF file for p93/d0025
+No CLF file for p70/d0010
+Result for 8963: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-8986 [ENTAILMENT]
+	Prem p72/d0032: A young girl in a bikini is jumping on the beach
+	Hypo p81/d0032: A young girl in swimming suite is jumping on the beach
+No CLF file for p72/d0032
+No CLF file for p81/d0032
+Result for 8986: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9014 [CONTRADICTION]
+	Prem p01/d0002: A blond child is going down a slide and throwing up his arms
+	Hypo p42/d0005: A child with dark hair is going down a slide and throwing up his arms
+No CLF file for p01/d0002
+No CLF file for p42/d0005
+Result for 9014: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-9029 [NEUTRAL]
+	Prem p34/d0058: Two dogs are playing in a forest
+	Hypo p14/d0004: A brown dog is running after a black dog on a rocky shore
+No CLF file for p34/d0058
+No CLF file for p14/d0004
+Result for 9029: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9036 [NEUTRAL]
+	Prem p43/d0027: A white dog is approaching a golden dog on pebbly beach
+	Hypo p39/d0058: Two dogs are playing on a rocky beach
+No CLF file for p43/d0027
+No CLF file for p39/d0058
+Result for 9036: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9056 [NEUTRAL]
+	Prem p09/d0061: Two young girls are wearing hats and sticking their colored tongues out
+	Hypo p95/d0058: Two kids are sticking out blue and green colored tongues
+No CLF file for p09/d0061
+No CLF file for p95/d0058
+Result for 9056: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9069 [ENTAILMENT]
+	Prem p52/d0057: Two boys are laying in the ocean close to the beach
+	Hypo p54/d0057: Two boys are laying in the water close to the beach
+No CLF file for p52/d0057
+No CLF file for p54/d0057
+Result for 9069: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9093 [NEUTRAL]
+	Prem p54/d0012: A large man is sitting in a military accessories store
+	Hypo p21/d0027: A veteran is showing different things from a war to some people
+No CLF file for p54/d0012
+No CLF file for p21/d0027
+Result for 9093: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9102 [NEUTRAL]
+	Prem p98/d0007: A dog with a blue collar is playing with the ball outside
+	Hypo p35/d0010: A grey dog is bouncing a soccer ball on its head in a grass field
+No CLF file for p98/d0007
+No CLF file for p35/d0010
+Result for 9102: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9125 [NEUTRAL]
+	Prem p32/d0033: A young woman with Indian clothing and henna on her hand is going through paperwork
+	Hypo p63/d0031: A woman is wearing a colorful shirt and a lot of jewelry
+No CLF file for p32/d0033
+No CLF file for p63/d0031
+Result for 9125: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9132 [ENTAILMENT]
+	Prem p47/d0014: A man in a jersey which is black is standing in a gym
+	Hypo p30/d0014: A man in a black jersey is standing in a gym
+No CLF file for p47/d0014
+No CLF file for p30/d0014
+Result for 9132: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9136 [ENTAILMENT]
+	Prem p30/d0014: A man in a black jersey is standing in a gym
+	Hypo p15/d0020: A man is standing in a gym and is wearing a jersey
+No CLF file for p30/d0014
+No CLF file for p15/d0020
+Result for 9136: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9169 [NEUTRAL]
+	Prem p18/d0013: A little brown and white dog is running on the sidewalk
+	Hypo p17/d0013: A little brown and white dog is running on the road
+No CLF file for p18/d0013
+No CLF file for p17/d0013
+Result for 9169: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9188 [NEUTRAL]
+	Prem p78/d0007: A dog is turning on the grass and pursuing a flying tennis ball
+	Hypo p99/d0031: A yellow dog is chasing a ball
+No CLF file for p78/d0007
+No CLF file for p99/d0031
+Result for 9188: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9198 [NEUTRAL]
+	Prem p08/d0028: A woman in blue jeans is standing in front of a group of children beside a stone built house
+	Hypo p65/d0035: No lady is standing on the street and is surrounded by school children
+No CLF file for p08/d0028
+No CLF file for p65/d0035
+Result for 9198: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9200 [NEUTRAL]
+	Prem p29/d0012: A lady is standing on the street and is surrounded by school children
+	Hypo p79/d0014: A man in blue jeans is standing in front of a group of children beside a stone built house
+No CLF file for p29/d0012
+No CLF file for p79/d0014
+Result for 9200: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9211 [NEUTRAL]
+	Prem p44/d0011: A guy is leaping into the air in wood
+	Hypo p43/d0011: A guy is leaping into the air in a wooded area
+No CLF file for p44/d0011
+No CLF file for p43/d0011
+Result for 9211: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9224 [NEUTRAL]
+	Prem p58/d0007: A dog is running with a ball
+	Hypo p38/d0040: The black dog is carrying a blue and white ball in its mouth
+No CLF file for p58/d0007
+No CLF file for p38/d0040
+Result for 9224: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9242 [NEUTRAL]
+	Prem p47/d0044: The man in blue is posing for a picture next to a vehicle
+	Hypo p10/d0020: A man is standing at the wheel of a classic American car that has its door and trunk open
+No CLF file for p47/d0044
+No CLF file for p10/d0020
+Result for 9242: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9287 [NEUTRAL]
+	Prem p67/d0019: A man is skiing down a hill and jumping a red obstacle
+	Hypo p90/d0019: A man is snowboarding down a railing in the snow
+No CLF file for p67/d0019
+No CLF file for p90/d0019
+Result for 9287: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9303 [ENTAILMENT]
+	Prem p83/d0048: The skateboarder is jumping in the air
+	Hypo p53/d0025: A skateboarder is jumping in the air
+No CLF file for p83/d0048
+No CLF file for p53/d0025
+Result for 9303: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9314 [NEUTRAL]
+	Prem p13/d0026: A snowboarder is grinding down a long concrete rail
+	Hypo p67/d0022: A person is doing acrobatics on a snowboard
+No CLF file for p13/d0026
+No CLF file for p67/d0022
+Result for 9314: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9336 [NEUTRAL]
+	Prem p14/d0011: A group of people is walking down the street and a person in a green hat is on the phone
+	Hypo p20/d0035: Four people are walking along a city sidewalk and the one in the green hat is phoning someone
+No CLF file for p14/d0011
+No CLF file for p20/d0035
+Result for 9336: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9359 [ENTAILMENT]
+	Prem p50/d0026: A surfer is surfing a big wave
+	Hypo p51/d0026: A surfer is surfing a huge wave
+No CLF file for p50/d0026
+No CLF file for p51/d0026
+Result for 9359: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9371 [NEUTRAL]
+	Prem p40/d0024: A person with a red hooded jacket and a black backpack is walking near a rocky wall
+	Hypo p56/d0014: A man in a red jacket and khaki pants is walking through an European state
+No CLF file for p40/d0024
+No CLF file for p56/d0014
+Result for 9371: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9380 [NEUTRAL]
+	Prem p46/d0048: The players is maneuvering for the soccer ball
+	Hypo p84/d0014: A man in green is kicking a soccer ball and a man in purple and white is rising up
+No CLF file for p46/d0048
+No CLF file for p84/d0014
+Result for 9380: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9401 [NEUTRAL]
+	Prem p37/d0044: The man dressed in leather chaps and a purple shirt is standing in front of someone lookers
+	Hypo p91/d0020: A man is wearing a purple shirt and black leather chaps and is posing for the camera
+No CLF file for p37/d0044
+No CLF file for p91/d0020
+Result for 9401: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9424 [NEUTRAL]
+	Prem p83/d0006: A dog is in a sandy area with the sand that is being stirred up into the air and several plants are in the background
+	Hypo p85/d0006: A dog is in the sand that is blowing in the air
+No CLF file for p83/d0006
+No CLF file for p85/d0006
+Result for 9424: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9425 [CONTRADICTION]
+	Prem p60/d0035: No dog is in the sand that is blowing in the wind
+	Hypo p83/d0006: A dog is in a sandy area with the sand that is being stirred up into the air and several plants are in the background
+No CLF file for p60/d0035
+No CLF file for p83/d0006
+Result for 9425: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-9433 [ENTAILMENT]
+	Prem p29/d0040: The black and white dog is running in a green yard
+	Hypo p25/d0001: A black and white dog is running outdoors
+No CLF file for p29/d0040
+No CLF file for p25/d0001
+Result for 9433: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9452 [NEUTRAL]
+	Prem p95/d0006: A dog is jumping into the air in the country
+	Hypo p93/d0006: A dog is jumping in the shade of some trees
+No CLF file for p95/d0006
+No CLF file for p93/d0006
+Result for 9452: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9453 [NEUTRAL]
+	Prem p93/d0006: A dog is jumping in the shade of some trees
+	Hypo p55/d0004: A cat is jumping high into the air in the country
+No CLF file for p93/d0006
+No CLF file for p55/d0004
+Result for 9453: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9490 [CONTRADICTION]
+	Prem p66/d0005: A cluster of four brown dogs are playing in a field of brown grass
+	Hypo p02/d0035: Four dogs are not playing in a grassy area
+No CLF file for p66/d0005
+No CLF file for p02/d0035
+Result for 9490: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-9500 [NEUTRAL]
+	Prem p68/d0000: A big brown and white spotted dog is lying on a jacket on the street
+	Hypo p09/d0042: The dog is having a nap in the park
+No CLF file for p68/d0000
+No CLF file for p09/d0042
+Result for 9500: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9545 [NEUTRAL]
+	Prem p19/d0021: A man on a yellow sport bike is doing a wheelie and a friend on a black bike is catching up
+	Hypo p65/d0048: The rider dressed in orange is driving a motorcycle on one wheel
+No CLF file for p19/d0021
+No CLF file for p65/d0048
+Result for 9545: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9571 [ENTAILMENT]
+	Prem p80/d0033: An elder man is sitting on a bench and is wearing a gray jacket and black pants
+	Hypo p81/d0033: An elderly man is sitting on a bench
+No CLF file for p80/d0033
+No CLF file for p81/d0033
+Result for 9571: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9584 [ENTAILMENT]
+	Prem p85/d0049: The woman is holding the paintbrush next to the artist's easel
+	Hypo p80/d0043: The lady is holding the paintbrush next to the artist's easel
+No CLF file for p85/d0049
+No CLF file for p80/d0043
+Result for 9584: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9623 [NEUTRAL]
+	Prem p82/d0020: A man is wearing a blue shirt and walking barefoot on a tennis court
+	Hypo p61/d0031: A woman is wearing a blue shirt and walking barefoot on a tennis court
+No CLF file for p82/d0020
+No CLF file for p61/d0031
+Result for 9623: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9669 [ENTAILMENT]
+	Prem p09/d0051: The young girl is playing on the edge of a fountain and an older woman is watching her
+	Hypo p87/d0032: A young girl is playing on the edge of a fountain and an older woman is watching her
+No CLF file for p09/d0051
+No CLF file for p87/d0032
+Result for 9669: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9677 [NEUTRAL]
+	Prem p87/d0032: A young girl is playing on the edge of a fountain and an older woman is watching her
+	Hypo p26/d0013: A little girl and a woman wearing a yellow shirt are getting splashed by a city fountain
+No CLF file for p87/d0032
+No CLF file for p26/d0013
+Result for 9677: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9706 [CONTRADICTION]
+	Prem p28/d0001: A black and white dog with a large branch is standing in the field
+	Hypo p26/d0001: A black and white dog with a large branch is running in the field
+No CLF file for p28/d0001
+No CLF file for p26/d0001
+Result for 9706: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-9713 [ENTAILMENT]
+	Prem p14/d0001: A black and white dog is carrying a huge stick on the green grass
+	Hypo p26/d0001: A black and white dog with a large branch is running in the field
+No CLF file for p14/d0001
+No CLF file for p26/d0001
+Result for 9713: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9722 [NEUTRAL]
+	Prem p00/d0003: A boy is running through the sand
+	Hypo p52/d0003: A boy wearing a striped shirt is running barefoot on the sandy hill
+No CLF file for p00/d0003
+No CLF file for p52/d0003
+Result for 9722: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9745 [NEUTRAL]
+	Prem p03/d0061: Two young boys are looking up at the camera and one is sticking out his tongue
+	Hypo p06/d0044: The little boy is sticking his tongue out for the camera and another boy is looking on
+No CLF file for p03/d0061
+No CLF file for p06/d0044
+Result for 9745: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9747 [ENTAILMENT]
+	Prem p05/d0013: A little boy is sticking his tongue out for the camera and another boy is looking on
+	Hypo p87/d0058: Two kids are looking up at the camera and one is sticking out his tongue
+No CLF file for p05/d0013
+No CLF file for p87/d0058
+Result for 9747: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-9759 [NEUTRAL]
+	Prem p68/d0012: A laughing child is holding a water gun and getting sprayed with water
+	Hypo p22/d0022: A person in a blue jacket is jumping onto a tall cement wall
+No CLF file for p68/d0012
+No CLF file for p22/d0022
+Result for 9759: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9763 [NEUTRAL]
+	Prem p81/d0023: A person is slicing some mushrooms
+	Hypo p44/d0042: The elephant is being ridden by the woman
+No CLF file for p81/d0023
+No CLF file for p44/d0042
+Result for 9763: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9771 [NEUTRAL]
+	Prem p53/d0060: Two small children are playing with a toy car in the street
+	Hypo p50/d0007: A dog is running through a field and is chasing a toy
+No CLF file for p53/d0060
+No CLF file for p50/d0007
+Result for 9771: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9788 [NEUTRAL]
+	Prem p06/d0018: A man is playing an electric guitar
+	Hypo p01/d0011: A group of people is holding drinks and pointing at the camera
+No CLF file for p06/d0018
+No CLF file for p01/d0011
+Result for 9788: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9789 [NEUTRAL]
+	Prem p49/d0009: A girl in gold and purple is holding a rainbow afghan
+	Hypo p05/d0020: A man is squatting in brush and taking a photo
+No CLF file for p49/d0009
+No CLF file for p05/d0020
+Result for 9789: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9822 [NEUTRAL]
+	Prem p08/d0060: Two people are riding a bike
+	Hypo p82/d0024: A practicing jumper is tossing a person's snowboard into the air
+No CLF file for p08/d0060
+No CLF file for p82/d0024
+Result for 9822: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9838 [NEUTRAL]
+	Prem p43/d0038: Some instruments are being played by a band
+	Hypo p33/d0033: A young, topless woman is covered in paint
+No CLF file for p43/d0038
+No CLF file for p33/d0033
+Result for 9838: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9843 [NEUTRAL]
+	Prem p44/d0008: A family is buying something at the vending machine
+	Hypo p70/d0014: A man in a suit is standing at a microphone and singing
+No CLF file for p44/d0008
+No CLF file for p70/d0014
+Result for 9843: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9869 [NEUTRAL]
+	Prem p87/d0000: A bike is being ridden over a monkey
+	Hypo p50/d0023: A person is riding a dirt bike down a dirt hill
+No CLF file for p87/d0000
+No CLF file for p50/d0023
+Result for 9869: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9880 [NEUTRAL]
+	Prem p94/d0000: A biker is riding away from a fence
+	Hypo p71/d0015: A man is dancing on the road
+No CLF file for p94/d0000
+No CLF file for p71/d0015
+Result for 9880: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9931 [NEUTRAL]
+	Prem p97/d0029: A woman is playing an electric guitar
+	Hypo p96/d0011: A kid is playing guitar
+No CLF file for p97/d0029
+No CLF file for p96/d0011
+Result for 9931: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9963 [NEUTRAL]
+	Prem p98/d0039: The animal is grazing on the grass
+	Hypo p76/d0041: The cop is sitting on a police bike
+No CLF file for p98/d0039
+No CLF file for p76/d0041
+Result for 9963: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9975 [NEUTRAL]
+	Prem p30/d0042: The dog is snapping at some droplets of water
+	Hypo p25/d0009: A girl in a band is playing an instrument
+No CLF file for p30/d0042
+No CLF file for p25/d0009
+Result for 9975: NEUTRAL vs neutral (No closed formulas) 
+
+SICK-9988 [NEUTRAL]
+	Prem p09/d0033: A young man is pushing a motocross bike down a dirt hill
+	Hypo p73/d0007: A dog is swimming after a tennis ball
+No CLF file for p09/d0033
+No CLF file for p73/d0007
+Result for 9988: NEUTRAL vs neutral (No closed formulas) 
+======================================== Status counts (500)========================================
+No closed formulas	500

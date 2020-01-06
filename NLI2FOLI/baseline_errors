@@ -1,0 +1,34 @@
+SICK-4 [CONTRADICTION]
+	Prem p99/d0050: The young boys are playing outdoors and the man is smiling nearby
+	Hypo p69/d0051: There is no boy playing outdoors and there is no man smiling
+No CLF file for p99/d0050
+No CLF file for p69/d0051
+Result for    4: CONTRADICTION vs neutral (No closed formulas) 
+
+SICK-211 [ENTAILMENT]
+	Prem p33/d0058: Two dogs are playing by a tree
+	Hypo p32/d0058: Two dogs are playing by a plant
+No CLF file for p33/d0058
+No CLF file for p32/d0058
+Result for  211: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-218 [ENTAILMENT]
+	Prem p51/d0009: A girl in white is dancing
+	Hypo p14/d0010: A girl is wearing white clothes and is dancing
+No CLF file for p51/d0009
+No CLF file for p14/d0010
+Result for  218: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-253 [ENTAILMENT]
+	Prem p58/d0011: A hiker is on top of the mountain and is doing a joyful dance
+	Hypo p57/d0011: A hiker is on top of the mountain and is dancing
+No CLF file for p58/d0011
+No CLF file for p57/d0011
+Result for  253: ENTAILMENT vs neutral (No closed formulas) 
+
+SICK-384 [ENTAILMENT]
+	Prem p35/d0027: A white and tan dog is running through the tall and green grass
+	Hypo p34/d0027: A white and tan dog is running through a field
+No CLF file for p35/d0027
+No CLF file for p34/d0027
+Result for  384: ENTAILMENT vs neutral (No closed formulas) 
