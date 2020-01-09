@@ -1,0 +1,4 @@
+To do:
+ - add to baseline (5 problems)
+ - develop a machine-learning based system
+ - don't use sentence ids, that's cheating

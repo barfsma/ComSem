@@ -1,4 +1,5 @@
 {
 "1909": ["all x.(polish_v01(x) -> clean_v01(x))"],
- "953": ["all x.(toddler_n01(x) -> child_n01(x) & some s. (Attribute(x,s) & young_a01(s)))"]
+ "953": ["all x.(toddler_n01(x) -> child_n01(x) & some s. (Attribute(x,s) & young_a01(s)))"],
+ "211": ["all x.(tree_n01(x) -> plant_n02(x))"]
 }
