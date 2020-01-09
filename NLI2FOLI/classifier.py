@@ -8,10 +8,10 @@ from sklearn.metrics import accuracy_score, classification_report, f1_score, pre
 from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 
-with open("SICK_train.txt", "rb") as f:
+with open("SICK/SICK_train.txt", "rb") as f:
     train_df = pd.read_csv(f, sep = "\t").drop(columns = ["pair_ID"])
 
-with open("SICK_trial.txt", "rb") as f:
+with open("SICK/SICK_trial.txt", "rb") as f:
     dev_df = pd.read_csv(f, sep = "\t").drop(columns = ["pair_ID"])
 
 
