@@ -1,0 +1,15 @@
+NP/N
+N
+(S[dcl]\NP)/(S[ng]\NP)
+(S\NP)\(S\NP)
+((S[ng]\NP)/NP)/PR
+PR
+NP/N
+N
+((S\NP)\(S\NP))/NP
+NP/N
+N
+S[pss]\NP
+((S\NP)\(S\NP))/NP
+NP/N
+N

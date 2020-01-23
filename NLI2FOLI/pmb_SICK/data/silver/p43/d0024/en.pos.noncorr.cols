@@ -1,0 +1,15 @@
+DT	A
+NN	person
+,	,
+WP	who
+VBZ	is
+VBG	riding
+DT	a
+NN	bike
+,	,
+VBZ	is
+VBG	wearing
+NN	gear
+WDT	which
+VBZ	is
+JJ	black

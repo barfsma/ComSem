@@ -1,0 +1,213 @@
+Parallel Meaning Bank 1.0
+============================
+
+
+Introduction
+------------
+
+The Parallel Meaning Bank (PMB) is a parallel corpus of sentences and short texts 
+with formal semantic annotations for four languages: English, German, Dutch 
+and Italian. The meaning representations are based on Discourse Representation 
+Theory (DRT), and combine logical with lexical approaches to linguistic meaning. 
+The representations comprise:
+
+* logical symbols (boolean operators and comparison operators)
+* non-logical symbols (WordNet synsets and VerbNet roles)
+
+Following DRT, we call the meaning representations Discourse Representation 
+Structures (DRSs). The DRSs are provided in the familiar box-like format as 
+well as with a flat format (clause notation). The latter format is used for 
+evaluation purposes and also contains alignment with the words of the input 
+sentence. In contrast to DRT, we adopt a neo-Davidsonian analysis of events, 
+using the thematic roles of VerbNet as relations between individual entities, 
+and the synsets of WordNet to denote individual concepts.
+
+About this release
+----------------
+
+This release is a frozen snapshot of a subset of PMB documents that are marked as gold 
+silver or bronze standard in the current development version. The gold folder contains all 
+documents that are fully manually checked, while the silver contains documents
+that are only partially manually checked. Bronze documents do not have any manual
+annotations. WARNING: use silver and bronze documents at your own risk!
+
+The current release comprises examples that are certainly not representative for the entire 
+corpus. This is because of the way they were selected: not randomly, but on the basis of 
+quality of the semantic analysis. Nevertheless, this selection contains a diverse set of 
+semantic phenomena, including: quantification, negation, modal operators, scope, tense, and 
+referring expressions.
+
+The current development version itself is made available via a wiki-like Web interface 
+called PMB Explorer. Semantic annotation is a very hard task and despite thorough manual 
+checking can still contain mistakes. If you find any errors in the annotation, you can 
+either let us know (via the website) or, if you feel sure, you can correct them yourself, 
+and thus contribute directly to the PMB. To do so or get more information about the 
+project, visit http://pmb.let.rug.nl
+
+Directory Layout
+----------------
+
+The PMB is partitioned into 100 parts. Each part is identified by a
+two-digit number. A part contains up to 10,000 documents. Within a part,
+each document is identified by a four-digit number. The ID of a
+document consists of the part number, followed by a slash, followed by
+the document number, e.g. 00/0030.
+
+pmb-1.0
+   data/                               contains the gold and silver data
+       gold/                           contains the gold data
+           p00/                        contains the gold data for part 00
+               d0030/                  contains the files for document 00/0030
+               ...                                 (see next section)
+               ...
+       silver/                         contains the silver data
+           p00/                        contains the silver data for part 00
+               d0704/                  contains the files for document 00/0704
+               ...                                 (see next section)
+               ...
+   doc/                                contains papers describing the PMB
+       ...
+   src/
+       extract.sh					   script to auotmatically create train/dev/test split	
+   README                              this file
+   NEWS                                list of major changes between releases
+   LICENSE                             license statement
+
+
+File Formats
+------------
+
+Every document directory contains several files with the raw texts and resulting analyses. 
+They are all encoded in UTF-8 with Unix-style line endings. Each file starts with a 
+two-letter language identifier (ISO-639-1).
+
+ *.met       Meta data about the document, such as language, title, data, source, genre, and
+             subcorpus. The format is one key: value pair per line.
+
+ *.raw       The raw text of the document. The standoff annotation (see below) refers to
+             character offsets (not byte offsets) within this document.
+ *.status    Contains six rows, indicating the status (gold, silver, bronze) of each
+             tagging layer (tok, sem, sym, cat, sns, rol). For gold documents the
+             status is gold for each layer, for silver there can be differences. You can
+             have a more detailed look at the tagging layers here: 
+             http://pmb.let.rug.nl/explorer/explore.php
+
+ *.tok.off   Standoff tokenization annotation in a vertical format. It contains one word 
+			 token per line. Columns are separated by one space character. They contain, 
+			 respectively:
+                1. the character offset of the start of the token;
+                2. the character offset of the end of the token;
+                3. a token ID, consisting of the number of the token within the sentence;
+                   (last three digits) and the number of the sentence within the 
+                   text (all other digits);
+                4. the token itself.
+
+ *.tok.iob   Tokenization in IOB format. It contains one character per line. Columns are 
+             separated by one space character. They contain, respectively:
+                1. the Unicode code point of the character in decimal notation;
+                2. a character tag: T (start of word token), S (start of sentence), 
+                   I (inside token) and O (outside token).
+
+ *.drs.xml   Contains the Discourse Representation Structure (DRS) representing the meaning 
+             of the text. The formalism used is Discourse Representation Theory (DRT), 
+             extended to use neo-Davidsonian events with roles from VerbNet and concepts 
+             from WordNet.
+
+ *.drs.box   Contains the DRS in a nice, human-readable box format.
+
+ *.drs.clf   Contains the DRS in clause notation, with word alignments. This is the file 
+             type that is used to calculate semantic similarity between DRSs.
+
+Semantic Parsing
+------------
+
+For people interested in semantic parsing, we added a script (src/extract.sh) to help
+with automatically creating train/dev/splits. This scripts calls a Python file that needs
+to run with Python 2. It will create the splits for each language, storing them in exp_data/.
+It creates a *.txt.raw file containing the raw sentences, and a *.txt files that contains all
+the DRSs in clause format, separated by a white line. 
+
+Simply run the following command from the main release directory:
+
+./src/extract.sh
+ 
+We only extract a dev and test set for the non-English languages, since there is less
+gold standard data available for them. For silver and bronze data, we only extract a train set
+for each language. The train/dev/split is created on part-level, by using these parts:
+	
+	
+	en:
+		train - everything not in part X0 or X1
+		dev   - parts X0 (i.e. p00, p10, p20, etc)
+		test  - parts X1 (i.e. p01, p11, p21, etc)
+	non-en:
+		train - none 
+		dev   - parts X1, X3, X5, X7 and X9
+		test  - parts X0, X2, X4, X6 and X8
+
+Note that these are our suggested splits, to make comparing approaches easier, but you are
+free to create different splits if they fit your own needs better.
+			
+
+Statistics gold
+----------
+
+Number of documents, sentences and tokens per language:
+
+    Documents  Sentences  Tokens 
+en  80         80         544    
+
+Number of documents per subcorpus per language:
+
+    SICK 
+en  80   
+
+Statistics silver
+----------
+
+Number of documents, sentences and tokens per language:
+
+    Documents  Sentences  Tokens 
+en  5693       5694       56321  
+
+Number of documents per subcorpus per language:
+
+    SICK 
+en  5693 
+
+Statistics bronze
+----------
+
+Number of documents, sentences and tokens per language:
+
+    Documents  Sentences  Tokens 
+en  301        301        2956   
+
+Number of documents per subcorpus per language:
+
+    SICK 
+en  301  
+
+
+Disclaimer
+----------
+The creators and annotators of the PMB do not necessarily share all views found in the text.
+Indeed, some of the views in the texts of the PMB might be offensive to readers. 
+We do think including such texts from the corpus is beneficial for researchers working on hate-speech.
+
+References
+----------
+
+We hope you find this release of the PMB useful for your research. If you want to
+refer to the PMB in your work please cite the following paper (for your convenience, 
+a bibtex entry is provided as well within this release):
+
+ Lasha Abzianidze, Johannes Bjerva, Kilian Evang, Hessel Haagsma, Rik van Noord, 
+ Pierre Ludmann, Duc-Duy Nguyen, Johan Bos (2017): The Parallel Meaning Bank: 
+ Towards a Multilingual Corpus of Translations Annotated with Compositional 
+ Meaning Representations. Proceedings of the 15th Conference of the European 
+ Chapter of the Association for Computational Linguistics (EACL), pp 242–247, 
+ Valencia, Spain.
+     
+The Parallel Meaning Bank website is at http://pmb.let.rug.nl.
+For contact, use the following email address: johan.bos@rug.nl.

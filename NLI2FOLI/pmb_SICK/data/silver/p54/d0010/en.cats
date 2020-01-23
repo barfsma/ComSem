@@ -1,0 +1,14 @@
+NP/N
+N/PP
+PP/NP
+N
+(N\N)/NP
+NP/N
+N
+(NP/(N/PP))\NP
+N/PP
+(S[dcl]\NP)/(S[ng]\NP)
+(S[ng]\NP)/NP
+N
+CONJ
+N

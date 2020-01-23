@@ -65,12 +65,18 @@ def main():
 
 	# Keras neural network model
 	model = Sequential()
-	model.add(LSTM(200, input_shape=((None, 200)), activation='tanh'))
+	model.add(LSTM(500, input_shape=((None, 200)), activation='tanh', recurrent_activation='hard_sigmoid'))
+	model.add(Dropout(0.4))
+	model.add(Dense(500, activation='relu'))
+	model.add(Dropout(0.4))
+	model.add(Dense(500, activation='tanh'))
+	model.add(Dropout(0.4))
+	model.add(Dense(500, activation='relu'))
+	model.add(Dropout(0.4))
+	model.add(Dense(500, activation='tanh'))
 	model.add(Dropout(0.5))
-	model.add(Dense(200, activation='relu'))
-	model.add(Dense(200, activation='tanh'))
 	model.add(Dense(3, activation='softmax'))
-	model.compile(optimizer='rmsprop', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+	model.compile(optimizer=Adam(0.001, amsgrad=True), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 	model.fit(train_vecs, train_labels, epochs=50, batch_size=64)
 	scores = model.evaluate(trial_vecs, trial_labels, verbose=0)

@@ -1,0 +1,9 @@
+NP[thr]
+(S[dcl]\NP[thr])/NP
+NP/N
+N
+(S[ng]\NP)/NP
+NP/N
+N/N
+N
+(S\NP)\(S\NP)

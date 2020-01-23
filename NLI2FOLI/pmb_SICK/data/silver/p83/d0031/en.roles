@@ -1,0 +1,17 @@
+
+
+[Theme,Agent]
+[Attribute]
+
+
+[Patient,Agent]
+[PartOf]
+
+[Attribute]
+
+[Theme]
+[Location]
+
+
+[Theme]
+

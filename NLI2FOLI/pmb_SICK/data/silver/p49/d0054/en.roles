@@ -1,0 +1,14 @@
+
+[Theme,Equal]
+
+
+[Agent]
+[Theme]
+[Location]
+[Quantity]
+[Patient,Agent]
+
+[Destination,Theme]
+
+[Theme]
+

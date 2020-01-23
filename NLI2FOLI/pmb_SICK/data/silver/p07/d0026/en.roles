@@ -1,0 +1,17 @@
+
+[Patient,Agent]
+
+[Context]
+[MadeOf]
+
+
+[Patient,Agent]
+[PartOf]
+[Attribute]
+
+[Source]
+
+
+[Location]
+
+
