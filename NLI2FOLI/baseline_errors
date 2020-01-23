@@ -1,3 +1,6 @@
+ python3 nli2foli.py  --pmb pmb_SICK/  --sick SICK/SICK_trial.txt  --kb knowledge.json  --pids 4 211 218 253 384
+
+
 SICK-4 [CONTRADICTION]
 	Prem p99/d0050: The young boys are playing outdoors and the man is smiling nearby
 	Hypo p69/d0051: There is no boy playing outdoors and there is no man smiling
