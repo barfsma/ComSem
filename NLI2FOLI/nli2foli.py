@@ -174,7 +174,7 @@ if __name__ == '__main__':
         info("Result for {:>4}: {} vs {} ({}) {}".format(p[0], p[1], pred.lower(), details, eureka))
         count.update([details])
         # Save only the first letter of the inference relations
-        gold_labs.append(p[1][0])
+        if p[1]: gold_labs.append(p[1][0])
         pred_labs.append(pred[0])
         prob_ids.append(p[0])
 
@@ -184,7 +184,8 @@ if __name__ == '__main__':
         print("{}\t{}".format(op, cnt))
 
     # Draw a confusion matrix
-    #confusion_matrix_scores(gold_labs, pred_labs, scores=not args.pids)
+    if gold_labs:
+        confusion_matrix_scores(gold_labs, pred_labs, scores=not args.pids)
 
     # write predictions in the file
     if args.out:

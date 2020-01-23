@@ -1,5 +1,9 @@
 {
 "1909": ["all x.(polish_v01(x) -> clean_v01(x))"],
  "953": ["all x.(toddler_n01(x) -> child_n01(x) & some s. (Attribute(x,s) & young_a01(s)))"],
- "211": ["all x.(tree_n01(x) -> plant_n02(x))"]
+ "9584": ["all x.(woman_n01(x) -> lady_n01(x))"],
+ "9359": ["all x.(big_a01(x) -> huge_a01(x))"],
+ "9069": ["all x.(ocean_n01(x) -> water_n01(x))"],
+ "8163": ["all x.(lady_n01(x) -> girl_n01(x))"],
+ "4360": ["all x.(note_n01(x) -> paper_n01(x))"]
 }

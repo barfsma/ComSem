@@ -128,7 +128,6 @@ def read_sick_problems(sick_file):
     '''read SICk problems from the SICK_part file as a list:
        [(id, gold_label, {'p':premise, 'h':hypothesis}), ...]
     '''
-    with_answers = True # train and trial parts come with answers, while test doesn't
     with open(sick_file) as f:
         problems = []
         for p in f:
@@ -137,9 +136,9 @@ def read_sick_problems(sick_file):
                 continue
             # parse the problem
             problem_parts = re.split('\s*\t\s*', p.strip())
-            if len(problem_parts) == 5:
+            if len(problem_parts) == 5: # with gold labels
                 (pid, prem, hypo, _, label) = problem_parts
-            else:
+            else: # withot gold labels
                 (pid, prem, hypo, label) = problem_parts + [None]
             problems.append((pid, label, prem, hypo))
         info("{} SICK problems read from {}".format(len(problems), sick_file))

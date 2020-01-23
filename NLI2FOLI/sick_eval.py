@@ -15,6 +15,8 @@ from collections import Counter
 import utils
 from utils import read_sick_problems
 from nltk import ConfusionMatrix
+from os import path as op
+from codalab_html import codalab_html
 
 #################################
 def parse_arguments():
@@ -29,6 +31,9 @@ def parse_arguments():
     parser.add_argument(
     '--filter',
         help='Combination of gold and system labels, e.g., "EN"')
+    parser.add_argument(
+    '--score', metavar='DIR',
+        help='Create scroes.txt file in the DIR and write an accuracy score there')
     args = parser.parse_args()
     return args
 
@@ -52,12 +57,23 @@ def confusion_matrix_scores(gold_labs, pred_labs, scores=True):
     cm = ConfusionMatrix(gold_labs, pred_labs)
     print(cm.pretty_format(show_percents=False))
 
-    # calculate and print accuracy, precision and recall for a SICK part (not for individual problems)
-    if scores:
+    # calculate accuracy, precision and recall for a SICK part (not for individual problems)
+    try:
         pre = (cm[('E','E')] + cm[('C','C')]) / float(sum([ cm[(i, j)] for i in 'NEC' for j in 'EC' ]))
+    except:
+        pre = 0
+    try:
         rec = (cm[('E','E')] + cm[('C','C')]) / float(sum([ cm[(i, j)] for i in 'EC' for j in 'NEC' ]))
+    except:
+        rec = 0
+    try:
         acc = (cm[('E','E')] + cm[('C','C')] + cm[('N','N')]) / float(cm._total)
+    except:
+        acc = 0
+    # print accuracy, precision and recall for a SICK part (not for individual problems)
+    if scores:
         print("Accuracy: {:.2f}%\nPrecision: {:.2f}%\nRecall: {:.2f}%".format(acc*100, pre*100, rec*100))
+    return (acc, pre, rec), cm
 
 ################################
 ############## MAIN ############
@@ -75,4 +91,12 @@ if __name__ == '__main__':
         # print SICk problems with a particular gold and system labels
         if args.filter and gold_list[-1] + pred_list[-1] == args.filter:
             print("SICK-{}   {}\n{}\n{}\n".format(*p))
-    confusion_matrix_scores(gold_list, pred_list)
+    (scores, cm) = confusion_matrix_scores(gold_list, pred_list)
+    if args.score:
+        # write an accuracy score
+        score_path = op.join(args.score, 'scores.txt')
+        with open(score_path, 'w') as f:
+            f.write("Accuracy: {:.4f}".format(scores[0]))
+            f.close()
+        # write a confusion matrix in html
+        codalab_html(scores, cm, op.join(args.score, 'scores.html'))
