@@ -78,7 +78,7 @@ def main():
 	model.add(Dense(3, activation='softmax'))
 	model.compile(optimizer=Adam(0.001, amsgrad=True), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-	model.fit(train_vecs, train_labels, epochs=50, batch_size=64)
+	model.fit(train_vecs, train_labels, epochs=200, batch_size=64)
 	scores = model.evaluate(trial_vecs, trial_labels, verbose=0)
 
 	print("Accuracy: %.2f%%" % (scores[1]*100))
