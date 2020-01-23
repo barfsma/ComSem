@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 
-from nltk.tokenize import word_tokenize
+from keras.layers import Dense, Dropout, LSTM, LSTMCell
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM
-
+from keras.optimizers import Adam
+from nltk.tokenize import word_tokenize
 
 def load_data():
 	"""Load train and test data"""
