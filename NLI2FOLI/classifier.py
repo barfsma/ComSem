@@ -18,7 +18,7 @@ with open("SICK/SICK_trial.txt", "rb") as f:
 train_df["text"] = train_df["sentence_A"] + train_df["sentence_B"]
 dev_df["text"] = dev_df["sentence_A"] + dev_df["sentence_B"]
 
-X, Y = train_df[["text", "entailment_judgment"]], dev_df[["text", "entailment_judgment"]], 
+X, Y = train_df[["text", "entailment_judgment"]], dev_df[["text", "entailment_judgment"]]
 
 X_train, X_test, Y_train, Y_test = train_df["text"], dev_df["text"], train_df["entailment_judgment"], dev_df["entailment_judgment"]
 
@@ -37,7 +37,7 @@ sgd = SGD(lr=0.01)
 loss_function = "mean_squared_error"
 model.compile(loss=loss_function, optimizer=sgd, metrics=["accuracy"])
 # Train the perceptron
-model.fit(Xtrain, Ytrain, verbose=1, epochs=1, batch_size=32)
+model.fit(X_train, Y_train, verbose=1, epochs=1, batch_size=32)
 # Get predictions
 Y_pred = model.predict(Xtest)
 # Convert to numerical labels to get scores with sklearn in 6-way setting
