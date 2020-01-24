@@ -1,26 +1,44 @@
 #!/usr/bin/python3
 
+import argparse
 import numpy as np
 import pandas as pd
+import tensorflow as tf
 
+from sklearn.metrics import accuracy_score
 from keras.layers import Dense, Dropout, LSTM, LSTMCell
 from keras.models import Sequential
 from keras.optimizers import Adam
 from nltk.tokenize import word_tokenize
 
-def load_data():
+
+def parse_arguments():
+	"""Read arguments from a command line"""
+	parser = argparse.ArgumentParser(description='Read the SICK dataset files')
+	parser.add_argument(
+    '--sick', metavar='FILE', required=True,
+        help='File containing SICK inference problems')
+	parser.add_argument(
+    '--out', metavar='FILE',
+        help='File where predictions will be written')
+	args = parser.parse_args()
+
+	return args
+
+
+def load_data(test_path):
 	"""Load train and test data"""
 	# sep = '\t'
 	train = pd.read_csv("NLI2FOLI/SICK/SICK_train.txt", sep='\t')
-	trial = pd.read_csv("NLI2FOLI/SICK/SICK_trial.txt", sep='\t')
+	test = pd.read_csv(test_path, sep='\t')
 
-	return train, trial
+	return train, test
 
 
 def load_embeddings():
 	"""Load GloVe pre-trained word vectors"""
 	glove_dict = {}
-	with open("../glove.6B.100d.txt", 'r') as f:
+	with open("../glove.42B.300d.txt", 'r') as f:
 		for line in f:
 			values = line.split()
 			word = values[0]
@@ -47,25 +65,30 @@ def create_embeddings(row, embeddings_dict):
 
 
 def main():
-	train, trial = load_data()
+	args = parse_arguments()
+	train, test = load_data(args.sick)
 	embeddings_dict = load_embeddings()
+
+	np.random.seed(2)
+	tf.set_random_seed(2)
 
 	# Change labels to integers
 	labels = {'ENTAILMENT':0, 'CONTRADICTION':1, 'NEUTRAL':2}
 	train_labels = train['entailment_judgment'].map(labels).values
-	trial_labels = trial['entailment_judgment'].map(labels).values
+	if 'entailment_judgment' in test.columns:
+		test_labels = test['entailment_judgment'].map(labels).values
 
 	# Get vectors and turn into array of arrays for Keras input
 	train['embeddings'] = train.apply(lambda row: create_embeddings(row, embeddings_dict), axis=1) 
 	train_vecs = np.stack(train.embeddings.values)
 	train_vecs = np.reshape(train_vecs, (train_vecs.shape[0], 1, train_vecs.shape[1]))
-	trial['embeddings'] = trial.apply(lambda row: create_embeddings(row, embeddings_dict), axis=1)
-	trial_vecs = np.stack(trial.embeddings.values)
-	trial_vecs = np.reshape(trial_vecs, (trial_vecs.shape[0], 1, trial_vecs.shape[1]))
+	test['embeddings'] = test.apply(lambda row: create_embeddings(row, embeddings_dict), axis=1)
+	test_vecs = np.stack(test.embeddings.values)
+	test_vecs = np.reshape(test_vecs, (test_vecs.shape[0], 1, test_vecs.shape[1]))
 
 	# Keras neural network model
 	model = Sequential()
-	model.add(LSTM(500, input_shape=((None, 200)), activation='tanh', recurrent_activation='hard_sigmoid'))
+	model.add(LSTM(500, input_shape=((1, 600)), activation='tanh', recurrent_activation='hard_sigmoid'))
 	model.add(Dropout(0.4))
 	model.add(Dense(500, activation='relu'))
 	model.add(Dropout(0.4))
@@ -79,9 +102,21 @@ def main():
 	model.compile(optimizer=Adam(0.001, amsgrad=True), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 	model.fit(train_vecs, train_labels, epochs=200, batch_size=64)
-	scores = model.evaluate(trial_vecs, trial_labels, verbose=0)
+	prediction = model.predict(test_vecs, batch_size=64)
+	pred_classes = np.argmax(prediction, axis=1)
 
-	print("Accuracy: %.2f%%" % (scores[1]*100))
+	if 'entailment_judgment' in test.columns:
+		print(accuracy_score(test_labels, pred_classes))
+		scores = model.evaluate(test_vecs, test_labels, verbose=0)
+		print("Accuracy: %.2f%%" % (scores[1]*100))
+
+	# Write IDs and predictions to output file
+	if args.out:
+		with open(args.out, 'w') as f:
+			mapping = {0:'ENTAILMENT', 1:'CONTRADICTION', 2:'NEUTRAL'}
+			ids = test['pair_ID'].tolist()
+			for pid, pred in zip(ids, pred_classes):
+				f.write("{};{}\n".format(pid,mapping[pred]))
 
 if __name__ == '__main__':
 	main()
