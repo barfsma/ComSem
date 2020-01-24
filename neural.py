@@ -70,7 +70,7 @@ def main():
 	embeddings_dict = load_embeddings()
 
 	np.random.seed(2)
-	tf.set_random_seed(2)
+	tf.random.set_seed(2)
 
 	# Change labels to integers
 	labels = {'ENTAILMENT':0, 'CONTRADICTION':1, 'NEUTRAL':2}
@@ -88,15 +88,15 @@ def main():
 
 	# Keras neural network model
 	model = Sequential()
-	model.add(LSTM(500, input_shape=((1, 600)), activation='tanh', recurrent_activation='hard_sigmoid'))
+	model.add(LSTM(600, input_shape=((1, 600)), activation='tanh', recurrent_activation='hard_sigmoid'))
 	model.add(Dropout(0.4))
-	model.add(Dense(500, activation='relu'))
+	model.add(Dense(600, activation='relu'))
 	model.add(Dropout(0.4))
-	model.add(Dense(500, activation='tanh'))
+	model.add(Dense(600, activation='tanh'))
 	model.add(Dropout(0.4))
-	model.add(Dense(500, activation='relu'))
+	model.add(Dense(600, activation='relu'))
 	model.add(Dropout(0.4))
-	model.add(Dense(500, activation='tanh'))
+	model.add(Dense(600, activation='tanh'))
 	model.add(Dropout(0.5))
 	model.add(Dense(3, activation='softmax'))
 	model.compile(optimizer=Adam(0.001, amsgrad=True), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
@@ -116,7 +116,7 @@ def main():
 			mapping = {0:'ENTAILMENT', 1:'CONTRADICTION', 2:'NEUTRAL'}
 			ids = test['pair_ID'].tolist()
 			for pid, pred in zip(ids, pred_classes):
-				f.write("{};{}\n".format(pid,mapping[pred]))
+				f.write("{}:{}\n".format(pid,mapping[pred]))
 
 if __name__ == '__main__':
 	main()
