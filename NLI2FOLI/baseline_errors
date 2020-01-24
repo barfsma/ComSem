@@ -1,1 +1,0 @@
-python3 nli2foli.py  --pmb pmb_SICK/  --sick SICK/SICK_trial.txt  --kb knowledge.json  --pids 4360 8163 9069 9359 9584

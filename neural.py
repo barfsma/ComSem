@@ -105,11 +105,6 @@ def main():
 	prediction = model.predict(test_vecs, batch_size=64)
 	pred_classes = np.argmax(prediction, axis=1)
 
-	if 'entailment_judgment' in test.columns:
-		print(accuracy_score(test_labels, pred_classes))
-		scores = model.evaluate(test_vecs, test_labels, verbose=0)
-		print("Accuracy: %.2f%%" % (scores[1]*100))
-
 	# Write IDs and predictions to output file
 	if args.out:
 		with open(args.out, 'w') as f:
